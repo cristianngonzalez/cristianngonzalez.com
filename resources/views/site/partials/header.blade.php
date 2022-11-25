@@ -16,14 +16,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
     <!-- Theme Style -->
-    <link rel="stylesheet" type="text/css" href="{{asset('assets/css/style.css')}}">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 
     <!-- Reponsive -->
-    <link rel="stylesheet" type="text/css" href="{{asset('assets/css/responsive.css')}}">
+    <link rel="stylesheet" type="text/css" href="assets/css/responsive.css">
 
     <!-- Favicon and Touch Icons  -->
-    <link rel="shortcut icon" href="{{asset('assets/icon/Favicon.png')}}">
-    <link rel="apple-touch-icon-precomposed" href="{{asset('assets/icon/Favicon.png')}}">
+    <link rel="shortcut icon" href="assets/icon/Favicon.png">
+    <link rel="apple-touch-icon-precomposed" href="assets/icon/Favicon.png">
 
 </head>
 

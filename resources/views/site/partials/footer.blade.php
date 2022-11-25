@@ -69,16 +69,16 @@
 
 
 <!-- Javascript -->
-<script src="{{asset('assets/js/jquery.min.js')}}"></script>
-<script src="{{asset('assets/js/jquery.easing.js')}}"></script>
-<script src="{{asset('assets/js/bootstrap.min.js')}}"></script>
-<script src="{{asset('assets/js/swiper-bundle.min.js')}}"></script>
-<script src="{{asset('assets/js/swiper.js')}}"></script>
+<script src="assets/js/jquery.min.js"></script>
+<script src="assets/js/jquery.easing.js"></script>
+<script src="assets/js/bootstrap.min.js"></script>
+<script src="assets/js/swiper-bundle.min.js"></script>
+<script src="assets/js/swiper.js"></script>
 
-<script src="{{asset('assets/js/plugin.js')}}"></script>
-<script src="{{asset('assets/js/count-down.js')}}"></script>
-<script src="{{asset('assets/js/shortcodes.js')}}"></script>
-<script src="{{asset('assets/js/main.js')}}"></script>
+<script src="assets/js/plugin.js"></script>
+<script src="assets/js/count-down.js"></script>
+<script src="assets/js/shortcodes.js"></script>
+<script src="assets/js/main.js"></script>
 </body>
 
 </html>
