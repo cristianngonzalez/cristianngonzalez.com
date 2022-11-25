@@ -42,15 +42,13 @@
                     <div class="row">
                         
                         <div class="col-md-12">
-                            <div class="mobile-button"><span></span></div><!-- /.mobile-button -->
+                            
                             <div id="site-header-inner" class="flex justify-content-between">
+                                
                                 <div id="site-logo" class="clearfix">
                                     <div id="site-logo-inner">
-                                        <a href="index.html" rel="home" class="main-logo">
-                                            <img id="logo_header" src="assets/images/logo/logo_dark.png"
-                                                alt="nft-gaming" width="151" height="45"
-                                                data-retina="assets/images/logo/logo_dark@2x.png" data-width="151"
-                                                data-height="45">
+                                        <a href="{{url('/')}}" rel="home" class="main-logo">
+                                            <img id="logo_header" src="assets/images/logo/logo_dark.png" alt="cristianngonzalez.com" width="151" height="45" data-retina="assets/images/logo/logo_dark@2x.png" data-width="151" data-height="45">
                                         </a>
                                     </div>
                                 </div>
@@ -59,11 +57,20 @@
                                     <nav id="main-nav" class="main-nav">
                                         <ul id="menu-primary-menu" class="menu">
                                             <li class="menu-item current-item">
-                                                <a href="#">Home</a>
+                                                <a href="{{url('/')}}">Home</a>
                                             </li>
 
                                             <li class="menu-item ">
                                                 <a href="contact.html" data-toggle="modal" data-target="#contact-modal">Contact</a>
+                                            </li>
+
+                                            <li class="menu-item menu-item-has-children">
+                                                <a href="#">Portal</a>
+                                                <ul class="sub-menu">
+                                                    <li class="menu-item"><a href="index.html">Home 1</a></li>
+                                                    <li class="menu-item"><a href="home2.html">Home 2</a></li>
+                                                    <li class="menu-item"><a href="home-animation.html">Home Animation</a></li>
+                                                </ul>
                                             </li>
 
                                         </ul>
@@ -80,12 +87,10 @@
                                     </a>
                                 </div>
 
-                                <div class="button-connect-wallet">
-                                    <a href="connect-wallet.html" class="sc-button wallet  style-2">
-                                        <i class="bi bi-box-arrow-in-right"></i>
-                                        <span>Login</span>
-                                    </a>
-                                </div>
+                                
+
+
+                                <div class="mobile-button"><span></span></div><!-- /.mobile-button -->
 
                                 
                             </div>

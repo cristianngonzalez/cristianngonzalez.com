@@ -29,21 +29,13 @@
                 <div class="widget widget-logo">
                     <div class="logo-footer" id="logo-footer">
                         <a href="index.html">
-                            <img id="logo_footer" src="assets/images/logo/logo_dark.png" alt="nft-gaming"
-                                width="151" height="45" data-retina="assets/images/logo/logo_dark@2x.png"
-                                data-width="151" data-height="45">
+                            <img id="logo_footer" src="assets/images/logo/logo_dark.png" alt="cristianngonzalez.com" width="151" height="45" data-retina="assets/images/logo/logo_dark@2x.png" data-width="151" data-height="45">
                         </a>
                     </div>
                     <p class="sub-widget-logo">Sed ut perspiciatis unde omnis iste natus error sit voluptate
-                        accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quaes</p>
-                    <div class="widget-social">
-                        <ul>
-                            <li><a href="#" class="active"><i class="fab fa-facebook-f"></i></a></li>
-                            <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-                            <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
-                            <li><a href="#"><i class="fab fa-youtube"></i></a></li>
-                        </ul>
-                    </div>
+                        accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quaes
+                    </p>
+                    
                 </div>
             </div>
             
