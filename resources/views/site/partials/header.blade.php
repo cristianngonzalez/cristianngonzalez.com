@@ -8,22 +8,20 @@
     <!-- Basic Page Needs -->
     <meta charset="utf-8">
     <!--[if IE]><meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'><![endif]-->
-    <title> | cristianngonzalez.com</title>
+    <title>@yield('title') | cristianngonzalez.com</title>
 
-    <meta name="author" content="themesflat.com">
-
+    <meta name="author" content="Cristian Nazareno Gonzalez">
     <!-- Mobile Specific Metas -->
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-
     <!-- Theme Style -->
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
-
     <!-- Reponsive -->
     <link rel="stylesheet" type="text/css" href="assets/css/responsive.css">
-
     <!-- Favicon and Touch Icons  -->
     <link rel="shortcut icon" href="assets/icon/Favicon.png">
     <link rel="apple-touch-icon-precomposed" href="assets/icon/Favicon.png">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
 
 </head>
 
@@ -41,10 +39,11 @@
 
             <header id="header_main" class="header_1 js-header">
                 <div class="container">
-                    <div class="row justify-content-between">
+                    <div class="row">
+                        
                         <div class="col-md-12">
                             <div class="mobile-button"><span></span></div><!-- /.mobile-button -->
-                            <div id="site-header-inner" class="flex">
+                            <div id="site-header-inner" class="flex justify-content-between">
                                 <div id="site-logo" class="clearfix">
                                     <div id="site-logo-inner">
                                         <a href="index.html" rel="home" class="main-logo">
@@ -59,7 +58,7 @@
                                 <div id="site-menu">
                                     <nav id="main-nav" class="main-nav">
                                         <ul id="menu-primary-menu" class="menu">
-                                            <li class="menu-item menu-item-has-children  current-item">
+                                            <li class="menu-item current-item">
                                                 <a href="#">Home</a>
                                             </li>
 
@@ -79,9 +78,24 @@
                                         <img id="moon_dark" src="assets/images/icon/moon.png" alt="">
                                     </a>
                                 </div>
+
+                                <div class="button-connect-wallet">
+                                    <a href="connect-wallet.html" class="sc-button wallet  style-2">
+                                        <i class="bi bi-box-arrow-in-right"></i>
+                                        <span>Login</span>
+                                    </a>
+                                </div>
+
+                                
                             </div>
                         </div>
                     </div>
                 </div>
 
             </header>
+
+
+            @include('site.partials.modal-contact')
+
+
+
