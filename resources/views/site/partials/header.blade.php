@@ -14,7 +14,7 @@
     <!-- Mobile Specific Metas -->
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <!-- Theme Style -->
-    <link rel="stylesheet" type="text/css" href="{{asset('public/assets/css/style.css')}}">
+    <link rel="stylesheet" type="text/css" href="https://www.cristianngonzalez.com/public/assets/css/style.css">
     <!-- Reponsive -->
     <link rel="stylesheet" type="text/css" href="assets/css/responsive.css">
     <!-- Favicon and Touch Icons  -->
