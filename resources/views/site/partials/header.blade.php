@@ -63,8 +63,9 @@
                                             </li>
 
                                             <li class="menu-item ">
-                                                <a href="contact.html">Contact</a>
+                                                <a href="contact.html" data-toggle="modal" data-target="#contact-modal">Contact</a>
                                             </li>
+
                                         </ul>
                                     </nav><!-- /#main-nav -->
                                 </div>
