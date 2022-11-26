@@ -84,6 +84,5 @@
     </div>
 </section>
 
-<h1>Mierda {{env('ASSETS_URL')}}</h1>
     
 @endsection
