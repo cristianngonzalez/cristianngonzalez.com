@@ -48,7 +48,7 @@
                                 <div id="site-logo" class="clearfix">
                                     <div id="site-logo-inner">
                                         <a href="{{url('/')}}" rel="home" class="main-logo">
-                                            <img id="logo_header" src="{{url('/assets/images/logo/logo_dark.png')}}" alt="cristianngonzalez.com" width="151" height="45" data-retina="assets/images/logo/logo_dark@2x.png" data-width="151" data-height="45">
+                                            <img id="logo_header" src="{{env('ASSETS_URL')}}/assets/images/logo/logo_dark.png" alt="cristianngonzalez.com" width="151" height="45" data-retina="{{env('ASSETS_URL')}}assets/images/logo/logo_dark@2x.png" data-width="151" data-height="45">
                                         </a>
                                     </div>
                                 </div>
