@@ -9,7 +9,7 @@
         <div class="modal-content">
 
             <div class="container mt-4 mb-4">
-                
+
                 <div class="row">
                     <div class="col-6" id="btn-modal-register">
                         <h4 class="text-center">Register</h4>
@@ -20,7 +20,7 @@
                 </div>
 
                 <!--Register Form-------------------------------->
-                <form id="create-item-1" action="./contact/contact-process.php" method="post" accept-charset="utf-8" novalidate="novalidate">
+                <form id="create-item-1" class="form-container" action="./contact/contact-process.php" method="post" accept-charset="utf-8" novalidate="novalidate">
                     <div class="row mt-4">
 
                         
@@ -48,7 +48,7 @@
                 <!--End Register Form-------------------------------->
 
                 <!--Login Form-------------------------------->
-                <form id="create-item-1" action="./contact/contact-process.php" method="post" accept-charset="utf-8" novalidate="novalidate">
+                <form id="create-item-1" class="form-container" action="./contact/contact-process.php" method="post" accept-charset="utf-8" novalidate="novalidate">
                     <div class="row mt-4">
 
                         

@@ -69,7 +69,7 @@
     .widget-post.style-3 .post-content {
         margin: 0;
     }
-    #create-item-1 .input-group.style-2  {
+    .form-container .input-group.style-2  {
         padding: 0;
     }
     .block-quote {
@@ -378,7 +378,7 @@
     .widget-post.style-2 .post-new,
     .widget-menu.menu-marketplace.style-2 ul,
     .form-create-item-content,
-    #create-item-1 .input-group,
+    .form-container .input-group,
     .page-title-inner,
     .sc-heading.style-2,
     .sc-heading.style-2 .content-left,
@@ -400,9 +400,9 @@
     .page-title-heading .heading   {
         margin-bottom: 30px;
     }
-    #create-item-1 .input-group input:first-child,
+    .form-container .input-group input:first-child,
     .login-page.register-page .input-group input:first-child,
-    .login-page.register-page #create-item-1 .input-group input,
+    .login-page.register-page .form-container .input-group input,
     .item-details-page .author-bid .author-item:first-child {
         margin-bottom: 20px ;
     }
@@ -412,8 +412,8 @@
         margin-bottom: 15px;
     }
     .widget-post.style-2 .post-new li:last-child,
-    #create-item-1 .input-group.style-2 input,
-    .login-page.register-page #create-item-1 .input-group,
+    .form-container .input-group.style-2 input,
+    .login-page.register-page .form-container .input-group,
     .mg-bt-0-mb {
         margin-bottom: 0;
     }

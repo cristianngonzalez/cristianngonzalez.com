@@ -8,7 +8,7 @@
       <div class="container-fluid">
 
 
-        <form id="create-item-1" action="./contact/contact-process.php" method="post" accept-charset="utf-8" novalidate="novalidate">
+        <form id="create-item-1" class="form-container" action="./contact/contact-process.php" method="post" accept-charset="utf-8" novalidate="novalidate">
         
           <div class="row">
             <div class="col-12">

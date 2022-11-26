@@ -2070,10 +2070,10 @@ blockquote .author::before {
     text-align: left;
 }
 
-#create-item-1 input,
-#create-item-1 .uploadFile,
-#create-item-1 textarea,
-#create-item-1 select {
+.form-container input,
+.form-container .uploadFile,
+.form-container textarea,
+.form-container select {
     height       : 65px;
     padding      : 0 35px;
     background   : rgba(99, 69, 237, 0.07);
@@ -2081,40 +2081,40 @@ blockquote .author::before {
     border-radius: 7px;
 }
 
-#create-item-1 input::placeholder,
-#create-item-1 .uploadFile .filename,
-#create-item-1 input,
-#create-item-1 textarea,
-#create-item-1 textarea::placeholder,
-#create-item-1 select {
+.form-container input::placeholder,
+.form-container .uploadFile .filename,
+.form-container input,
+.form-container textarea,
+.form-container textarea::placeholder,
+.form-container select {
     font-size  : 18px;
     color      : var(--color-1);
     font-weight: 700;
 }
 
-.is_dark #create-item-1 input,
-.is_dark #create-item-1 .uploadFile,
-.is_dark #create-item-1 textarea,
-.is_dark #create-item-1 select {
+.is_dark .form-container input,
+.is_dark .form-container .uploadFile,
+.is_dark .form-container textarea,
+.is_dark .form-container select {
     border: 1px solid rgba(99, 69, 237, 0.1);
     background: #5e5e74a1;
 }
 
-#create-item-1 .uploadFile,
-#create-item-1 .input-group,
-#create-item-1 select {
+.form-container .uploadFile,
+.form-container .input-group,
+.form-container select {
     margin-bottom: 20px;
 }
 
-#create-item-1 .uploadFile,
-#create-item-1 select {
+.form-container .uploadFile,
+.form-container select {
     position   : relative;
     width      : 100%;
     line-height: 65px;
     border     : 1px solid rgba(99, 69, 237, 0.12);
 }
 
-#create-item-1 .uploadFile input {
+.form-container .uploadFile input {
     position: absolute;
     top     : 0;
     left    : 0;
@@ -2122,40 +2122,40 @@ blockquote .author::before {
     opacity : 0;
 }
 
-#create-item-1 .uploadFile .icon {
+.form-container .uploadFile .icon {
     float: right;
 }
 
-#create-item-1 .uploadFile i {
+.form-container .uploadFile i {
     color    : var(--primary-color5);
     font-size: 18px;
 }
 
-#create-item-1 .input-group.style-2 {
+.form-container .input-group.style-2 {
     padding      : 0 23px;
     margin-bottom: 16px;
 }
 
-#create-item-1 .input-group input:first-child {
+.form-container .input-group input:first-child {
     margin-right: 20px;
 }
 
-#create-item-1 textarea {
+.form-container textarea {
     padding-top  : 18px;
     height       : 130px;
     margin-bottom: 6px;
 }
 
-#create-item-1 button {
+.form-container button {
     width : 100%;
     height: 55px;
 }
 
-#create-item-1 button span {
+.form-container button span {
     font-size: 16px;
 }
 
-#create-item-1 .btn-check {
+.form-container .btn-check {
     display       : flex;
     align-items   : center;
     font-weight   : 600;
@@ -2164,14 +2164,14 @@ blockquote .author::before {
     margin-right  : 37px;
 }
 
-#create-item-1 .btn-check:last-child {
+.form-container .btn-check:last-child {
     margin-right: 0;
 }
 
-#create-item-1 .btn-check input {
+.form-container .btn-check input {
     margin-right: 11px !important;
 }
-#create-item-1 input[type="radio"] {
+.form-container input[type="radio"] {
     width: 18px;
 }
 
@@ -2187,15 +2187,15 @@ blockquote .author::before {
     margin-bottom: 31px;
 }
 
-.login-page #create-item-1 input {
+.login-page .form-container input {
     margin-bottom: 20px;
 }
 
-.login-page #create-item-1 .btn-check {
+.login-page .form-container .btn-check {
     margin-top: -13px;
 }
 
-.login-page #create-item-1 .btn-check input {
+.login-page .form-container .btn-check input {
     margin-bottom: 0;
 }
 
@@ -2248,7 +2248,7 @@ blockquote .author::before {
     flex-shrink: 0;
 }
 
-.login-page.register-page #create-item-1 .input-group input {
+.login-page.register-page .form-container .input-group input {
     margin-bottom: 0;
 }
 .login-page.register-page .other-login {
@@ -2320,17 +2320,17 @@ blockquote .author::before {
     margin-bottom: 43px;
 }
 
-.contact-page #create-item-1 select {
+.contact-page .form-container select {
     position: relative;
 }
 
-.contact-page #create-item-1 select option {
+.contact-page .form-container select option {
     font-size: 18px;
     font-weight: 600;
     line-height: 50px;
 }
 
-.contact-page #create-item-1 select:focus {
+.contact-page .form-container select:focus {
     outline: none;
     border: none;
 }
@@ -2339,7 +2339,7 @@ blockquote .author::before {
     margin-top: -361px;
 }
 
-.contact-page #create-item-1 textarea {
+.contact-page .form-container textarea {
     height: 164px;
     margin-bottom: 19px;
 }
