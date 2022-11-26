@@ -4,7 +4,9 @@
 @section('content')
 
 
-<section class="tf-slider">
+<h6>{{asset('assets/css/responsive.css')}}</h6>
+
+<section class="tf-slider mb-4">
     <div class="swiper-container slider ">
         <div class="swiper-wrapper">
             <div class="swiper-slide wow fadeInUp">
