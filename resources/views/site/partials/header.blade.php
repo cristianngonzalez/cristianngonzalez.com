@@ -23,6 +23,8 @@
 
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
 
+    <script src="{{env('ASSETS_URL')}}assets/js/jquery.min.js"></script>
+
 </head>
 
 <body class="body header-fixed is_dark">
@@ -64,13 +66,8 @@
                                                 <a href="contact.html" data-toggle="modal" data-target="#contact-modal">Contact</a>
                                             </li>
 
-                                            <li class="menu-item menu-item-has-children">
-                                                <a href="#">Portal</a>
-                                                <ul class="sub-menu">
-                                                    <li class="menu-item"><a href="index.html">Home 1</a></li>
-                                                    <li class="menu-item"><a href="home2.html">Home 2</a></li>
-                                                    <li class="menu-item"><a href="home-animation.html">Home Animation</a></li>
-                                                </ul>
+                                            <li class="menu-item">
+                                                <a href="">Login</a>
                                             </li>
 
                                         </ul>
@@ -103,5 +100,6 @@
 
             @include('site.partials.modal-contact')
 
+            @include('site.partials.modal-login-register')
 
 

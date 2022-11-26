@@ -61,7 +61,6 @@
 
 
 <!-- Javascript -->
-<script src="{{env('ASSETS_URL')}}assets/js/jquery.min.js"></script>
 <script src="{{env('ASSETS_URL')}}assets/js/jquery.easing.js"></script>
 <script src="{{env('ASSETS_URL')}}assets/js/bootstrap.min.js"></script>
 <script src="{{env('ASSETS_URL')}}assets/js/swiper-bundle.min.js"></script>
