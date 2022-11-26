@@ -14,11 +14,11 @@
     <!-- Mobile Specific Metas -->
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <!-- Theme Style -->
-    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <link rel="stylesheet" type="text/css" href="{{env('ASSETS_URL')}}assets/css/style.css">
     <!-- Reponsive -->
-    <link rel="stylesheet" type="text/css" href="assets/css/responsive.css">
+    <link rel="stylesheet" type="text/css" href="{{env('ASSETS_URL')}}assets/css/responsive.css">
     <!-- Favicon and Touch Icons  -->
-    <link rel="shortcut icon" href="assets/icon/Favicon.png">
+    <link rel="shortcut icon" href="{{env('ASSETS_URL')}}assets/icon/Favicon.png">
     <link rel="apple-touch-icon-precomposed" href="assets/icon/Favicon.png">
 
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">

@@ -4,8 +4,6 @@
 @section('content')
 
 
-<h6>{{asset('assets/css/responsive.css')}}</h6>
-
 <section class="tf-slider mb-4">
     <div class="swiper-container slider ">
         <div class="swiper-wrapper">
@@ -85,5 +83,7 @@
         <div class="swiper-button-prev btn-slide-prev"></div>
     </div>
 </section>
+
+<h1>Mierda {{env('ASSETS_URL')}}</h1>
     
 @endsection
