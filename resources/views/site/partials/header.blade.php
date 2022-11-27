@@ -67,7 +67,7 @@
                                             </li>
 
                                             <li class="menu-item">
-                                                <a href="">Login</a>
+                                                <a href=""  data-toggle="modal" data-target="#modal-login-register">Login</a>
                                             </li>
 
                                         </ul>
