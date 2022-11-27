@@ -12,17 +12,14 @@
                     <div class="overlay"></div>
                     <div class="slider-inner flex home-1">
                         <div class="slider-content">
-                            <h1 class="heading">Discover and collect your favorite digital NTFs</h1>
-                            <p class="sub-heading">Quis autem vel eum iure reprehenderit qui in ea
-                                voluptates esse quam nihil molestiae consequatur veillum </p>
+                            <h1 class="heading">Mobile apps for Android and IOS</h1>
+                            <p class="sub-heading">Mobile applications created with web technology converted to native, we can create your app from scratch or take advantage of your current site and expand to the native mobile world.</p>
+                            <!--
                             <div class="button-slider">
-                                <a href="explore-1.html"
-                                    class="sc-button btn-bordered-white style letter "><span>Explore
-                                        More</span></a>
-                                <a href="create-item.html"
-                                    class="sc-button btn-bordered-white style file"><span>Create
-                                        Now</span></a>
+                                <a href="explore-1.html" class="sc-button btn-bordered-white style letter "><span>Explore More</span></a>
+                                <a href="create-item.html" class="sc-button btn-bordered-white style file"><span>Create Now</span></a>
                             </div>
+                            -->
                         </div>
                         <div class="slider-img">
                             <div class="img-home-1"><img src="assets/images/slider/img-slider-1.png"
@@ -37,17 +34,14 @@
                     <div class="container">
                         <div class="slider-inner style-2 home-1 flex">
                             <div class="slider-content">
-                                <h1 class="heading">Discover and collect your favorite digital NTFs</h1>
-                                <p class="sub-heading">Quis autem vel eum iure reprehenderit qui in ea
-                                    voluptates esse quam nihil molestiae consequatur veillum </p>
+                                <h1 class="heading">Frontend development</h1>
+                                <p class="sub-heading">Frontend development, we turn any sketch, photoshop or figma into an incredible website. We adapt it to the most popular frontend framework technologies.</p>
+                                <!--
                                 <div class="button-slider">
-                                    <a href="explore-1.html"
-                                        class="sc-button btn-bordered-white style letter "><span>Explore
-                                            More</span></a>
-                                    <a href="create-item.html"
-                                        class="sc-button btn-bordered-white style file"><span>Create
-                                            Now</span></a>
+                                    <a href="explore-1.html" class="sc-button btn-bordered-white style letter "><span>Explore More</span></a>
+                                    <a href="create-item.html" class="sc-button btn-bordered-white style file"><span>Create Now</span></a>
                                 </div>
+                                -->
                             </div>
                             <div class="slider-img flex">
                                 <div class="img-left">
