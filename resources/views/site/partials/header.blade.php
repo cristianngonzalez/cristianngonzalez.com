@@ -66,6 +66,10 @@
                                                 <a href="contact.html" data-toggle="modal" data-target="#contact-modal">Contact</a>
                                             </li>
 
+                                            <li class="menu-item ">
+                                                <a href="contact.html" data-toggle="modal" data-target="#contact-modal">About me</a>
+                                            </li>
+
                                             <li class="menu-item">
                                                 <a href=""  data-toggle="modal" data-target="#modal-login-register">Login</a>
                                             </li>

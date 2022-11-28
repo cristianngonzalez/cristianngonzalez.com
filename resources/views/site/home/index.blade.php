@@ -22,8 +22,7 @@
                             -->
                         </div>
                         <div class="slider-img">
-                            <div class="img-home-1"><img src="assets/images/slider/img-slider-1.png"
-                                    alt="Image"></div>
+                            <div class="img-home-1"><img src="{{env('ASSETS_URL')}}assets/images/slider/img-slider-1.png" alt="Image"></div>
                         </div>
                     </div>
                 </div><!-- item-->
