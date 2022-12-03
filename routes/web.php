@@ -9,9 +9,7 @@ Route::get('/', function () {
 Route::get('/home', function () {
     return view('site.home.index');
 });
-Route::get('/blog', function () {
-    return view('site.blog.index');
-});
+Route::get('/blog', [App\Http\Controllers\BlogController::class, 'index'] );
 
 
 Auth::routes();

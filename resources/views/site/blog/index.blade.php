@@ -25,6 +25,8 @@
     </div>
 </section>
 
+{{$blogs}}
+
 <div class="tf-section sc-card-blog">
     <div class="container">
         <div class="row">
