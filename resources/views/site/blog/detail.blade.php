@@ -27,22 +27,11 @@
 
 <div class="tf-section post-details" style="padding: 100px 0">
     <div class="container">
-        <div class="row justify-content-center">
+        <div class="row">
             <div class="col-lg-12 col-md-12">
                 <article class="blog-details">
                     <div class="post-media">
-                        <img src="assets/images/post/post-detail-1.jpg" alt="">
-                        <div class="meta">
-                            <div class="item author">
-                                <a href="#">Cristian N Gonzalez</a>
-                            </div>
-                            <div class="item date">
-                                <a href="#">05 Jan 2022</a>
-                            </div>
-                            <div class="item comments">
-                                Comments (5)
-                            </div>
-                        </div>
+                        <img src="{{env('ASSETS_URL')}}assets/images/post/post-detail-1.jpg" alt="">
                     </div>
                     <div class="post-content">
                         <h1 class="post-title">{{$blog->title}}</h1>

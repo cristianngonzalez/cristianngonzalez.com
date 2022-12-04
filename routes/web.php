@@ -13,6 +13,9 @@ Route::get('/home', function () {
 Route::get('/blog', [App\Http\Controllers\BlogController::class, 'index'] );
 Route::get('blog/{blog}', [App\Http\Controllers\BlogController::class, 'detail'] )->name('blog.detail');
 
+Route::get('/aboutme', function () {
+    return view('site.aboutme.index');
+})->name('aboutme');
 
 Auth::routes();
 

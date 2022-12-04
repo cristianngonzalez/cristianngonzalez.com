@@ -67,7 +67,7 @@
                                             </li>
 
                                             <li class="menu-item ">
-                                                <a href="contact.html" data-toggle="modal" data-target="#contact-modal">About me</a>
+                                                <a href="{{route('aboutme')}}">About me</a>
                                             </li>
 
                                             <li class="menu-item">
@@ -75,7 +75,8 @@
                                             </li>
 
                                         </ul>
-                                    </nav><!-- /#main-nav -->
+                                    </nav>
+                                    <!-- /#main-nav -->
                                 </div>
 
                                 <div class="mode_switcher">
