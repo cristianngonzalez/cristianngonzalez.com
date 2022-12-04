@@ -9,7 +9,9 @@ Route::get('/', function () {
 Route::get('/home', function () {
     return view('site.home.index');
 });
+
 Route::get('/blog', [App\Http\Controllers\BlogController::class, 'index'] );
+Route::get('blog/{blog}', [App\Http\Controllers\BlogController::class, 'detail'] )->name('blog.detail');
 
 
 Auth::routes();

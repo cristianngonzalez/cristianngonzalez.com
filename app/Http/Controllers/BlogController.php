@@ -15,4 +15,10 @@ class BlogController extends Controller{
 
         return view('site.blog.index' , compact('blogs') );
     }
+
+
+    public function detail(Blog $blog){
+        return view('site.blog.detail', compact('blog'));
+    }
+
 }
