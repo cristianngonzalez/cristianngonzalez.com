@@ -25,8 +25,7 @@
                             </div>
                             <div class="content">
                                 <h4><a href="#">React</a></h4>
-                                <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium
-                                    doloremque laudantium,</p>
+                                <p>React is a JavaScript frontend framework for building complex applications in a simpler and more scalable way.</p>
                             </div>
                         </div>
                     </div>
@@ -37,8 +36,7 @@
                             </div>
                             <div class="content">
                                 <h4><a href="#">Angular</a></h4>
-                                <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium
-                                    doloremque laudantium,</p>
+                                <p>Angular is a JavaScript frontend framework for building complex applications in a simpler and more scalable way.</p>
                             </div>
                         </div>
                     </div>
@@ -49,8 +47,7 @@
                             </div>
                             <div class="content">
                                 <h4><a href="#">Vue</a></h4>
-                                <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium
-                                    doloremque laudantium,</p>
+                                <p>Vue is a JavaScript frontend framework for building complex applications in a simpler and more scalable way.</p>
                             </div>
                         </div>
                     </div>
@@ -61,8 +58,7 @@
                             </div>
                             <div class="content">
                                 <h4><a href="#">WebGL & Unity</a></h4>
-                                <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium
-                                    doloremque laudantium,</p>
+                                <p>Unity is the most popular graphic engine, this engine allows you to create very powerful graphic applications and export them to the web and other devices.</p>
                             </div>
                         </div>
                     </div>
@@ -73,8 +69,7 @@
                             </div>
                             <div class="content">
                                 <h4><a href="#">Laravel</a></h4>
-                                <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium
-                                    doloremque laudantium,</p>
+                                <p>Laravel is a Php framework for building backends for web applications. Laravel is based on the Symphony framework.</p>
                             </div>
                         </div>
                     </div>
@@ -85,8 +80,7 @@
                             </div>
                             <div class="content">
                                 <h4><a href="#">NodeJS</a></h4>
-                                <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium
-                                    doloremque laudantium,</p>
+                                <p>When you use nodejs you are using js but outside of the browser, nodejs is used to create server applications. In addition to js we can also create libraries with c++ so we can increase its performance.</p>
                             </div>
                         </div>
                     </div>
@@ -97,8 +91,7 @@
                             </div>
                             <div class="content">
                                 <h4><a href="#">Wordpress</a></h4>
-                                <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium
-                                    doloremque laudantium,</p>
+                                <p>Wordpress is the most popular cms, the vast majority of the world's websites use it. It has extensive documentation and tools created by third parties.</p>
                             </div>
                         </div>
                     </div>
@@ -109,8 +102,7 @@
                             </div>
                             <div class="content">
                                 <h4><a href="#">AdobeXD & Figma</a></h4>
-                                <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium
-                                    doloremque laudantium,</p>
+                                <p>Adobe xd and figma are used to create and design application sketches, I am not a designer but in this time I have had to work with this.</p>
                             </div>
                         </div>
                     </div>
@@ -121,8 +113,7 @@
                             </div>
                             <div class="content">
                                 <h4><a href="#">Electron & Ionic</a></h4>
-                                <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium
-                                    doloremque laudantium,</p>
+                                <p>Ionic builds hybrid apps compatible with IOS, Android, Windows and Web. Ionic uses web standards (html, css, JavaScript)</p>
                             </div>
                         </div>
                     </div>
