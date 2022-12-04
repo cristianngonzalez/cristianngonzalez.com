@@ -46,7 +46,11 @@
                             <div class="text-article">
                                 <h5><a href="{{route('blog.detail' , [$blog] )}}">{{$blog->title}}</a></h5>
                             </div>
+
+
                             <a href="{{route('blog.detail' , [$blog] )}}" class="sc-button btn-bordered-white style letter"><span>Read More</span></a>
+
+                            
                         </div>
                     </article>
                 </div>

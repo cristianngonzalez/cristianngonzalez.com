@@ -30,6 +30,20 @@
         <div class="row justify-content-center">
             <div class="col-lg-12 col-md-12">
                 <article class="blog-details">
+                    <div class="post-media">
+                        <img src="assets/images/post/post-detail-1.jpg" alt="">
+                        <div class="meta">
+                            <div class="item author">
+                                <a href="#">Cristian N Gonzalez</a>
+                            </div>
+                            <div class="item date">
+                                <a href="#">05 Jan 2022</a>
+                            </div>
+                            <div class="item comments">
+                                Comments (5)
+                            </div>
+                        </div>
+                    </div>
                     <div class="post-content">
                         <h1 class="post-title">{{$blog->title}}</h1>
                         
