@@ -47,7 +47,7 @@
 
         </div>
         <div class="swiper-pagination"></div>
-        <div class="swiper-button-next btn-slide-next "></div>
+        <div class="swiper-button-next btn-slide-next"></div>
         <div class="swiper-button-prev btn-slide-prev"></div>
     </div>
 </section>
