@@ -47,7 +47,7 @@
                     <div class="col-lg-4 col-md-4">
                         <div class="sc-wallet">
                             <div class="icon">
-                                <img src="assets/images/icon/icon-1.svg" alt="">
+                                <img src="{{env('ASSETS_URL')}}assets/images/icon/icon-1.svg" alt="">
                             </div>
                             <div class="content">
                                 <h4><a href="#">React</a></h4>
@@ -58,7 +58,7 @@
                     <div class="col-lg-4 col-md-4">
                         <div class="sc-wallet">
                             <div class="icon">
-                                <img src="assets/images/icon/icon-2.svg" alt="">
+                                <img src="{{env('ASSETS_URL')}}assets/images/icon/icon-2.svg" alt="">
                             </div>
                             <div class="content">
                                 <h4><a href="#">Angular</a></h4>
@@ -69,7 +69,7 @@
                     <div class="col-lg-4 col-md-4">
                         <div class="sc-wallet">
                             <div class="icon">
-                                <img src="assets/images/icon/icon-3.svg" alt="">
+                                <img src="{{env('ASSETS_URL')}}assets/images/icon/icon-3.svg" alt="">
                             </div>
                             <div class="content">
                                 <h4><a href="#">Vue</a></h4>
@@ -80,7 +80,7 @@
                     <div class="col-lg-4 col-md-4">
                         <div class="sc-wallet">
                             <div class="icon">
-                                <img src="assets/images/icon/icon-4.svg" alt="">
+                                <img src="{{env('ASSETS_URL')}}assets/images/icon/icon-4.svg" alt="">
                             </div>
                             <div class="content">
                                 <h4><a href="#">WebGL & Unity</a></h4>
@@ -91,7 +91,7 @@
                     <div class="col-lg-4 col-md-4">
                         <div class="sc-wallet">
                             <div class="icon">
-                                <img src="assets/images/icon/icon-5.svg" alt="">
+                                <img src="{{env('ASSETS_URL')}}assets/images/icon/icon-5.svg" alt="">
                             </div>
                             <div class="content">
                                 <h4><a href="#">Laravel</a></h4>
@@ -102,7 +102,7 @@
                     <div class="col-lg-4 col-md-4">
                         <div class="sc-wallet">
                             <div class="icon">
-                                <img src="assets/images/icon/icon-6.svg" alt="">
+                                <img src="{{env('ASSETS_URL')}}assets/images/icon/icon-6.svg" alt="">
                             </div>
                             <div class="content">
                                 <h4><a href="#">NodeJS</a></h4>
@@ -124,7 +124,7 @@
                     <div class="col-lg-4 col-md-4">
                         <div class="sc-wallet mg-bt-0">
                             <div class="icon">
-                                <img src="assets/images/icon/icon-8.svg" alt="">
+                                <img src="{{env('ASSETS_URL')}}assets/images/icon/icon-8.svg" alt="">
                             </div>
                             <div class="content">
                                 <h4><a href="#">AdobeXD & Figma</a></h4>
@@ -135,7 +135,7 @@
                     <div class="col-lg-4 col-md-4">
                         <div class="sc-wallet mg-bt-0">
                             <div class="icon">
-                                <img src="assets/images/icon/icon-9.svg" alt="">
+                                <img src="{{env('ASSETS_URL')}}assets/images/icon/icon-9.svg" alt="">
                             </div>
                             <div class="content">
                                 <h4><a href="#">Electron & Ionic</a></h4>
