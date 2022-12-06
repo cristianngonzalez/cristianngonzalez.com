@@ -70,7 +70,7 @@
                         <p>Preparing biography Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum velit, rem, aliquam reprehenderit cumque vitae ipsum deserunt laborum architecto voluptas neque est quos dolorum accusantium! Ducimus quisquam a iusto esse.</p>
                         <div class="widget-social style-4">
                             <ul>
-                                <li><a href="#" class="active"><i class="bi bi-facebook"></i></a></li>
+                                <li><a href="https://www.facebook.com/cristianngonzalezok" target="_blank" class="active"><i class="bi bi-facebook"></i></a></li>
                                 <li><a href="#"><i class="bi bi-instagram"></i></a></li>
                                 <li><a href="#"><i class="bi bi-linkedin"></i></a></li>
                             </ul>

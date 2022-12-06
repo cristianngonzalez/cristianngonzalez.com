@@ -28,9 +28,9 @@
                         
                         <div class="widget-social style-4">
                             <ul>
-                                <li><a href="#" class="active"><i class="bi bi-facebook"></i></a></li>
-                                <li><a href="#"><i class="bi bi-instagram"></i></a></li>
-                                <li><a href="#"><i class="bi bi-linkedin"></i></a></li>
+                                <li><a href="https://www.facebook.com/cristianngonzalezok" target="_blank"><i class="bi bi-facebook"></i></a></li>
+                                <li><a href="www.instagram.com/cristianngonzalez_" target="_blank"><i class="bi bi-instagram"></i></a></li>
+                                <li><a href="https://www.linkedin.com/in/cristianngonzalez/" target="_blank"><i class="bi bi-linkedin"></i></a></li>
                             </ul>
                         </div>
                     </div>
