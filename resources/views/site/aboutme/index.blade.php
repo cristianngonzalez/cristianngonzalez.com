@@ -28,9 +28,9 @@
                         
                         <div class="widget-social style-4">
                             <ul>
-                                <li><a href="#" class="active"><i class="fab fa-facebook-f"></i></a></li>
-                                <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
-                                <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                                <li><a href="#" class="active"><i class="bi bi-facebook"></i></a></li>
+                                <li><a href="#"><i class="bi bi-instagram"></i></a></li>
+                                <li><a href="#"><i class="bi bi-linkedin"></i></a></li>
                             </ul>
                         </div>
                     </div>
