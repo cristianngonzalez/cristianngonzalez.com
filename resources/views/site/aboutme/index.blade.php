@@ -113,7 +113,7 @@
                     <div class="col-lg-4 col-md-4">
                         <div class="sc-wallet mg-bt-0">
                             <div class="icon">
-                                <img src="assets/images/icon/icon-7.svg" alt="">
+                                <img src="{{env('ASSETS_URL')}}assets/images/icon/icon-7.svg" alt="">
                             </div>
                             <div class="content">
                                 <h4><a href="#">Wordpress</a></h4>
