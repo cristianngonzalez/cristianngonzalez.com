@@ -5,12 +5,38 @@
 
 
 
+
+
+
     <div class="container">
+
+
 
         <!----------------------------------------------------------------------------------------------------------------------------------------->
         <!--Our tecnologies-->
         <section class="tf-section connect-wallet">
             <div class="container">
+
+                <div class="post-author style-2">
+                    <div class="avatar">
+                        <img src="assets/images/avatar/avt-12.jpg" alt="">
+                    </div>
+                    <div class="content">
+                        <h4><a href="#">Cristian N. Gonzalez</a></h4>
+                        <div class="job">Web developer</div>
+                        <p>I am a technology enthusiast, since I started my working career at the age of 18. I have gone through various work areas, I must tell you that my career did not begin in the world of software development, but rather my Master of Works title gave me the opportunity to work with CAD plan drawings. Little by little, that took me to vector illustration moving on to video animations. That fueled my curiosity so that in 2019 I started self-taught at first to dedicate myself to the world of frontend web development, until a very short time later I went through full stack web development.</p>
+                        
+                        <div class="widget-social style-4">
+                            <ul>
+                                <li><a href="#" class="active"><i class="fab fa-facebook-f"></i></a></li>
+                                <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                                <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+
                 <div class="row">
                     <div class="col-md-12">
                         <div class="sc-heading">
@@ -118,6 +144,8 @@
                         </div>
                     </div>
                 </div>
+
+
             </div>
         </section>
         <!--End Our tecnologies-->

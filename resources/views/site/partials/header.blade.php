@@ -82,10 +82,10 @@
                                 <div class="mode_switcher">
                                     <h6><span>Dark Mode</span> <strong>Activate</strong></h6>
                                     <a href="#" class="light d-flex align-items-center">
-                                        <img src="assets/images/icon/sun.png" alt="">
+                                        <img src="{{env('ASSETS_URL')}}assets/images/icon/sun.png" alt="">
                                     </a>
                                     <a href="#" class="dark d-flex align-items-center is_active">
-                                        <img id="moon_dark" src="assets/images/icon/moon.png" alt="">
+                                        <img id="moon_dark" src="{{env('ASSETS_URL')}}assets/images/icon/moon.png" alt="">
                                     </a>
                                 </div>
 
