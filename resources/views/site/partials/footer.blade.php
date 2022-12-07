@@ -70,6 +70,7 @@
 <script src="{{env('ASSETS_URL')}}assets/js/count-down.js"></script>
 <script src="{{env('ASSETS_URL')}}assets/js/shortcodes.js"></script>
 <script src="{{env('ASSETS_URL')}}assets/js/main.js"></script>
+<script src="{{env('ASSETS_URL')}}assets/js/prism.js"></script>
 </body>
 
 </html>

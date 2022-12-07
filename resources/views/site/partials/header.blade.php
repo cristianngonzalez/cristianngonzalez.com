@@ -23,6 +23,9 @@
 
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
 
+    <!--Prism show prety sinthax code-->
+    <link rel="stylesheet" href="{{env('ASSETS_URL')}}assets/css/prism.css">
+
     <script src="{{env('ASSETS_URL')}}assets/js/jquery.min.js"></script>
 
 </head>
