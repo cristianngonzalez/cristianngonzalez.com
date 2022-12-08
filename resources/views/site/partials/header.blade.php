@@ -88,7 +88,15 @@
                                                     <a href="#">Profile</a>
                                                     <ul class="sub-menu">
                                                         <li class="menu-item "><a href="blog.html">Settings</a></li>
-                                                        <li class="menu-item"><a href="blog-details.html">Logout</a>
+                                                        <li class="menu-item">
+                                                            <form id="logout-form" action="{{ route('logout') }}" method="POST" class="d-none">
+                                                                @csrf
+                                                            </form>    
+                                                            <a href="blog-details.html" 
+                                                                onclick="event.preventDefault();
+                                                                    document.getElementById('logout-form').submit();">
+                                                                {{ __('Logout') }}
+                                                            </a>
                                                         </li>
                                                     </ul>
                                                 </li>
