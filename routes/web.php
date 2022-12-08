@@ -17,7 +17,12 @@ Route::get('/aboutme', function () {
     return view('site.aboutme.index');
 })->name('aboutme');
 
-Auth::routes();
+
+Auth::routes();//Default routes of laravel auth
+Route::get('/inicio', function () {
+    return view('site.user.login');
+})->name('inicio');
+
 
 //Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
 Route::get('/inicio', function () {

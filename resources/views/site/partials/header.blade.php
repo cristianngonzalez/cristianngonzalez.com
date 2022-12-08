@@ -7,6 +7,10 @@
 <head>
     <!-- Basic Page Needs -->
     <meta charset="utf-8">
+
+    <!-- CSRF Token -->
+    <meta name="csrf-token" content="{{ csrf_token() }}">
+
     <!--[if IE]><meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'><![endif]-->
     <title>@yield('title') | cristianngonzalez.com</title>
 
@@ -58,24 +62,37 @@
                                     </div>
                                 </div>
 
+                                
+
                                 <div id="site-menu">
                                     <nav id="main-nav" class="main-nav">
                                         <ul id="menu-primary-menu" class="menu">
-                                            <li class="menu-item current-item">
+                                            <li class="menu-item  @if (Request::path() == '/' || Request::path() == 'home') current-item  @endif">
                                                 <a href="{{url('/')}}">Home</a>
                                             </li>
 
-                                            <li class="menu-item ">
+                                            <li class="menu-item @if (Request::path() == 'contact') current-item  @endif">
                                                 <a href="contact.html" data-toggle="modal" data-target="#contact-modal">Contact</a>
                                             </li>
 
-                                            <li class="menu-item ">
+                                            <li class="menu-item  @if (Request::path() == 'aboutme') current-item  @endif">
                                                 <a href="{{route('aboutme')}}">About me</a>
                                             </li>
 
-                                            <li class="menu-item">
-                                                <a href=""  data-toggle="modal" data-target="#modal-login-register">Login</a>
-                                            </li>
+                                            @guest
+                                                <li class="menu-item">
+                                                    <a href=""  data-toggle="modal" data-target="#modal-login-register">Login</a>  
+                                                </li>
+                                            @else
+                                                <li class="menu-item menu-item-has-children  @if (Request::path() == 'login' || Request::path() == 'signup' || Request::path() == 'profile') current-item  @endif">
+                                                    <a href="#">Profile</a>
+                                                    <ul class="sub-menu">
+                                                        <li class="menu-item "><a href="blog.html">Settings</a></li>
+                                                        <li class="menu-item"><a href="blog-details.html">Logout</a>
+                                                        </li>
+                                                    </ul>
+                                                </li>
+                                            @endguest
 
                                         </ul>
                                     </nav>
