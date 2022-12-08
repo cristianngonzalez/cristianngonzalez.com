@@ -908,17 +908,9 @@ h6 a {
 label.error { color: red; }
 .swiper-button-next:after,
 .swiper-button-prev:after{
-    font-family: 'Font Awesome 5 Pro' ;
     font-size: 20px;
 }
 
-.swiper-button-next:after{
-    content: "\f061" ;
-}
-
-.swiper-button-prev:after{
-    content: "\f060" ;
-}
 
 .flex {
     display: -webkit-box;

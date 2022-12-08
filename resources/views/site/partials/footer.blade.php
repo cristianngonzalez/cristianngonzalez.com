@@ -20,7 +20,7 @@
 </section>
 
 
-<!-- Footer -->
+<!--Footer-------------------------------------------------------------------------->
 <footer id="footer" class="clearfix bg-style ft-home-1">
     <div class="container">
         <div class="row">
@@ -44,7 +44,8 @@
             
         </div>
     </div>
-</footer><!-- /#footer -->
+</footer>
+<!--footer-------------------------------------------------------------------------------->
 
 <!-- Bottom -->
 <div class="bottom">

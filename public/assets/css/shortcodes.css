@@ -583,8 +583,8 @@ blockquote .author::before {
 
 .new-letter-img .form-subcribe button span::before,
 .new-letter-content .form-subcribe button span::before {
-    font-size: 16px;
-    top      : 2px;
+    font-size : 16px;
+    top       : 2px;
 }
 
 
