@@ -31,8 +31,22 @@
                     <td>{{$blog->id}}</td>
                     <td>{{$blog->title}}</td>
                     <td>{{$blog->created_at}}</td>
-                    <td><a href="">Edit</a></td>
-                    <td><a href="">Delete</a></td>
+                    <!--Edit a post------------------------------------------------>
+                    <td>
+                        <a href="{{route('admin.blogs.edit' , [$blog])}}">Edit</a>
+                    </td>
+                    <!--End Edit a post------------------------------------------------>
+                    <!--Delete a post------------------------------------------------>
+                    <td>
+                        <form action="{{route('admin.blogs.delete')}}" method="POST">
+                            @csrf
+                            @method('POST')
+                            <input type="text" name="id" value="{{$blog->id}}" hidden>
+                            <input type="text" name="title" value="{{$blog->title}}" hidden>
+                            <input href="" type="submit" value="Delete">
+                        </form>
+                    </td>
+                    <!--End Delete a post------------------------------------------------>
                 </tr>
             @endforeach
         </tbody>

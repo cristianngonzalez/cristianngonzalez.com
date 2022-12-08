@@ -38,5 +38,21 @@ class BlogController extends Controller{
         
     }
 
+    public function delete(Request $req){
+
+        $id = $req->input('id');
+        $blog=Blog::where('id',$id)->delete();
+
+        return redirect()->to('/admin/blogs');
+    }
+
+    public function edit(Blog $blog){
+        return view('admin.blog.edit' , compact('blog'));
+    }
+
+    public function update(Request $req){
+        
+        echo('Update');
+    }
 
 }

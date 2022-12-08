@@ -20,7 +20,9 @@ Route::get('/aboutme', function () {
 Auth::routes();
 
 //Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
-
+Route::get('/inicio', function () {
+    return view('site.user.login');
+})->name('inicio');
 
 //------------------------------------------------------------------------------
 //Admin routes
@@ -31,6 +33,9 @@ Route::get('/admin/blogs/new',  function(){
     return view('admin.blog.new');
 } )->name('admin.blogs.new');
 Route::post('/admin/blogs/create',  [App\Http\Controllers\BlogController::class, 'create']  )->name('admin.blogs.create');
+Route::post('/admin/blogs/delete',  [App\Http\Controllers\BlogController::class, 'delete']  )->name('admin.blogs.delete');
+Route::get('/admin/blogs/edit',  [App\Http\Controllers\BlogController::class, 'edit'] )->name('admin.blogs.edit');
+Route::post('/admin/blogs/update',  [App\Http\Controllers\BlogController::class, 'update']   )->name('admin.blogs.update');
 
 Route::get('/admin/emails', [App\Http\Controllers\admin\AdminController::class, 'emails'] );
 //End admin routes
