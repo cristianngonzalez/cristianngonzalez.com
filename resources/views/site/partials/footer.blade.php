@@ -11,8 +11,7 @@
                         class="form-submit">
                         <input name="email" value="" class="email" type="email"
                             placeholder="Enter Email Address" required="">
-                        <button name="submit" type="submit" id="submit"
-                            class="sc-button style letter style-2"><span>Subscribe</span> </button>
+                        <button name="submit" type="submit" id="submit"  class="sc-button"><span>Subscribe</span> </button>
                     </form>
                 </div>
             </div>
@@ -32,9 +31,11 @@
                             <img id="logo_footer" src="{{env('ASSETS_URL')}}assets/images/logo/logo_dark.png" alt="cristianngonzalez.com" width="151" height="45" data-retina="assets/images/logo/logo_dark@2x.png" data-width="151" data-height="45">
                         </a>
                     </div>
+                    <!--
                     <p class="sub-widget-logo">Sed ut perspiciatis unde omnis iste natus error sit voluptate
                         accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quaes
                     </p>
+                    -->
                     
                 </div>
             </div>
