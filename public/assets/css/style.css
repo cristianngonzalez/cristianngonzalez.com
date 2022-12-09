@@ -1362,19 +1362,6 @@ a:focus {
 
 
 
-#main-nav>.menu>li.menu-item-has-children>a::after {
-    content    : '\f107';
-    font-family: 'Font Awesome 5 Pro';
-    font-weight: 300;
-    position: absolute;
-    right: 0;
-    top: 60%;
-    -webkit-transform: translateY(-50%);
-    -ms-transform    : translateY(-50%);
-    -o-transform     : translateY(-50%);
-    transform        : translateY(-50%);
-}
-
 /* Sub Menu */
 
 #main-nav .sub-menu {

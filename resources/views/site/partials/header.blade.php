@@ -85,7 +85,7 @@
                                                 </li>
                                             @else
                                                 <li class="menu-item menu-item-has-children  @if (Request::path() == 'login' || Request::path() == 'signup' || Request::path() == 'profile') current-item  @endif">
-                                                    <a href="#">Profile</a>
+                                                    <a href="#">Profile <i class="bi bi-chevron-down"></i></a>
                                                     <ul class="sub-menu">
                                                         <li class="menu-item "><a href="blog.html">Settings</a></li>
                                                         <li class="menu-item">
