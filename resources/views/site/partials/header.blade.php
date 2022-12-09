@@ -80,8 +80,8 @@
                                             </li>
 
                                             @guest
-                                                <li class="menu-item">
-                                                    <a href=""  data-toggle="modal" data-target="#modal-login-register">Login</a>  
+                                                <li class="menu-item @if (Request::path() == 'login') current-item  @endif">
+                                                    <a href="{{route('login')}}">Login</a>  
                                                 </li>
                                             @else
                                                 <li class="menu-item menu-item-has-children  @if (Request::path() == 'login' || Request::path() == 'signup' || Request::path() == 'profile') current-item  @endif">
@@ -133,6 +133,5 @@
 
             @include('site.partials.modal-contact')
 
-            @include('site.partials.modal-login-register')
 
 
