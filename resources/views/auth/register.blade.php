@@ -39,7 +39,10 @@
 
                             <div class="col-12 mt-3">
                                 <label for="password">{{ __('Password') }}</label>
-                                <input id="password" type="password" class="@error('password') is-invalid @enderror" value="{{ old('email') }}" name="password" required autocomplete="new-password">
+                                <input id="input-password-1" type="password" class="@error('password') is-invalid @enderror" value="{{ old('email') }}" name="password" required autocomplete="new-password">
+                                <button class="btn btn-password-eye" type="button" id="btn-password-eye-1">
+                                    <i id="bi-password-eye-1" class="bi bi-eye"></i>
+                                </button>
                                 @error('password')
                                     <span class="invalid-feedback" role="alert">
                                         <strong>{{ $message }}</strong>
@@ -49,7 +52,10 @@
                         
                             <div class="col-12 mt-3">
                                 <label for="password-confirm">{{ __('Confirm Password') }}</label>
-                                <input id="password-confirm" type="password" class="@error('password') is-invalid @enderror" value="{{ old('email') }}" name="password_confirmation" required autocomplete="new-password">
+                                <input id="input-password-2" type="password" class="@error('password') is-invalid @enderror" value="{{ old('email') }}" name="password_confirmation" required autocomplete="new-password">
+                                <button class="btn btn-password-eye" type="button" id="btn-password-eye-2">
+                                    <i id="bi-password-eye-2" class="bi bi-eye"></i>
+                                </button>
                             </div>
 
                             <div class="col-12 mt-3">
