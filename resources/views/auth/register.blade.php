@@ -14,7 +14,7 @@
                                 <h3>{{ __('Register') }}</h3>
                             </div>
                         </div>
-                        <form id="create-item-1" method="POST" action="{{ route('register') }}">
+                        <form id="create-item-1" class="form-container" method="POST" action="{{ route('register') }}">
                             @csrf
                             
                             <div class="col-12 mt-3">
@@ -56,6 +56,10 @@
                                 <button type="submit" class="sc-button style letter style-2">
                                     {{ __('Register') }}
                                 </button>
+                            </div>
+
+                            <div class="col-12 mt-3">
+                                <span><a href="{{route('login')}}">I have an account, login here.</a></span>
                             </div>
 
                         </form>

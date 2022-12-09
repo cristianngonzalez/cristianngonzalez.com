@@ -15,12 +15,12 @@
                                 <h3>{{ __('Login') }}</h3>
                             </div>
                         </div>
-                        <form id="create-item-1" method="POST" action="{{ route('login') }}">
+                        <form id="create-item-1" class="form-container" method="POST" action="{{ route('login') }}">
                             @csrf
                             
                             <div class="col-12 mt-3">
                                 <label for="email" >{{ __('Email Address') }}</label>      
-                                <input id="email" type="email" class=" @error('email') is-invalid @enderror" name="email" value="{{ old('email') }}" required autocomplete="email" autofocus>
+                                <input id="email" type="email" class="tb-my-input @error('email') is-invalid @enderror" name="email" aria-required="true" value="{{ old('email') }}" required autocomplete="email" autofocus>
                                 @error('email')
                                     <span class="invalid-feedback" role="alert">
                                         <strong>{{ $message }}</strong>
@@ -31,7 +31,13 @@
                             
                             <div class="col-12 mt-3">
                                 <label for="password">{{ __('Password') }}</label>
-                                <input id="password" type="password" class="@error('password') is-invalid @enderror" name="password" required autocomplete="current-password">
+                                <!--Input password and button-eye should to have the same 
+                                    number on the end of its id, beacause it uses for jquery-->
+                                <input type="password" id="input-password-1" class="@error('password') is-invalid @enderror" name="password" required autocomplete="current-password">
+                                <button class="btn btn-password-eye" type="button" id="btn-password-eye-1">
+                                    <i class="bi bi-eye"></i>
+                                </button>
+
                                 @error('password')
                                     <span class="invalid-feedback" role="alert">
                                         <strong>{{ $message }}</strong>
@@ -50,12 +56,17 @@
                                 <button type="submit" class="sc-button style letter style-2">
                                     {{ __('Login') }}
                                 </button>
+                            </div>
 
+                            <div class="col-6 mt-3">
                                 @if (Route::has('password.request'))
                                     <a href="{{ route('password.request') }}">{{ __('Forgot Your Password?') }}</a>
                                 @endif
                             </div>
 
+                            <div class="col-6 mt-3">
+                                <span><a href="{{route('register')}}">I am new here, register you here.</a></span>
+                            </div>
 
 
                         </form>
@@ -69,6 +80,29 @@
     </div>
 </section>
 
+
+<style>
+    .btn-password-eye{
+        padding: 0px;
+        width: 55px !important;
+        height: 55px !important;
+        background: rgb(161, 161, 161);
+        top: 20px;
+        right: 20px;
+        position: absolute;
+        font-size: 30px !important;
+    }
+</style>
+
+<script>
+    $('#btn-password-eye-1').click(function(){
+        if($('#input-password-1').attr('type') == 'password'){
+            $('#input-password-1').prop('type' , 'text');
+        }else{
+            $('#input-password-1').prop('type' , 'password');
+        }
+    })
+</script>
 
 @endsection
 
