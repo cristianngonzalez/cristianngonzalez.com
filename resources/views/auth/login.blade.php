@@ -35,7 +35,7 @@
                                     number on the end of its id, beacause it uses for jquery-->
                                 <input type="password" id="input-password-1" class="@error('password') is-invalid @enderror" name="password" required autocomplete="current-password">
                                 <button class="btn btn-password-eye" type="button" id="btn-password-eye-1">
-                                    <i class="bi bi-eye"></i>
+                                    <i id="bi-password-eye-1" class="bi bi-eye"></i>
                                 </button>
 
                                 @error('password')
