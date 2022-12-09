@@ -81,28 +81,6 @@
 </section>
 
 
-<style>
-    .btn-password-eye{
-        padding: 0px;
-        width: 55px !important;
-        height: 55px !important;
-        background: rgb(161, 161, 161);
-        top: 20px;
-        right: 20px;
-        position: absolute;
-        font-size: 30px !important;
-    }
-</style>
-
-<script>
-    $('#btn-password-eye-1').click(function(){
-        if($('#input-password-1').attr('type') == 'password'){
-            $('#input-password-1').prop('type' , 'text');
-        }else{
-            $('#input-password-1').prop('type' , 'password');
-        }
-    })
-</script>
 
 @endsection
 

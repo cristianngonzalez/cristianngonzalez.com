@@ -3051,3 +3051,15 @@ background-color: var(--color-4);
     color: var(--color-1);
     text-shadow: unset;
 }
+
+
+.btn-password-eye{
+    padding: 0px;
+    width: 55px !important;
+    height: 55px !important;
+    background: rgb(161, 161, 161);
+    top: 20px;
+    right: 20px;
+    position: absolute;
+    font-size: 30px !important;
+}
