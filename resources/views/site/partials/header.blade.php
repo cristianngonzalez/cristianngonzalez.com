@@ -29,6 +29,7 @@
 
     <!--Prism show prety sinthax code-->
     <link rel="stylesheet" href="{{env('ASSETS_URL')}}assets/css/prism.css">
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
 
     <script src="{{env('ASSETS_URL')}}assets/js/jquery.min.js"></script>
 
@@ -135,3 +136,6 @@
 
 
 
+            @php
+            Alert::success('Success Title', 'Success Message');    
+            @endphp

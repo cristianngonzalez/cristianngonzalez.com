@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 //Importar la fachada de mail
 use Illuminate\Support\Facades\Mail;
+use RealRashid\SweetAlert\Facades\Alert;
 //Importar la clase email creada
 use App\Mail\MessageReceived;
 
@@ -44,5 +45,7 @@ class MessagesController extends Controller{
 
       $message->save();
 
+
+      return view('site.contact.index')->with('success','success')->with('name',$req->input('name'));
    }
 }
