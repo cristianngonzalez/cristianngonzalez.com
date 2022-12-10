@@ -133,9 +133,3 @@
 
 
             @include('site.partials.modal-contact')
-
-
-
-            @php
-            Alert::success('Success Title', 'Success Message');    
-            @endphp
