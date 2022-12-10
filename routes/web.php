@@ -18,7 +18,7 @@ Route::get('/aboutme', function () {
 })->name('aboutme');
 
 Route::get('/contact', function () { return view('site.contact.index');})->name('contact');
-
+Route::post('/contact/message', [App\Http\Controllers\MessagesController::class, 'contactMessage'] )->name('contact.message');
 
 Auth::routes();//Default routes of laravel auth
 Route::get('/inicio', function () {

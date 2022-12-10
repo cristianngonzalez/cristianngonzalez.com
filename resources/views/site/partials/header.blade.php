@@ -72,7 +72,7 @@
                                             </li>
 
                                             <li class="menu-item @if (Request::path() == 'contact') current-item  @endif">
-                                                <a href="contact.html" data-toggle="modal" data-target="#contact-modal">Contact</a>
+                                                <a href="{{route('contact')}}">Contact</a>
                                             </li>
 
                                             <li class="menu-item  @if (Request::path() == 'aboutme') current-item  @endif">

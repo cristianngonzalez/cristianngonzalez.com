@@ -7,6 +7,8 @@ use Illuminate\Support\Facades\Mail;
 //Importar la clase email creada
 use App\Mail\MessageReceived;
 
+use App\Models\Message;
+
 class MessagesController extends Controller{
    //Este metodo es el action del formulario en la vista
    public function sendMessage( Request $req ){
@@ -25,5 +27,22 @@ class MessagesController extends Controller{
      //return new MessageReceived($name , $email , $message);
 
      return 'Mensaje enviado';
+   }
+
+   //Messages from contact section in the page
+   public function contactMessage(Request $req){
+
+      $message = new Message;
+ 
+      $message->name = $req->input('name');
+      $message->email = $req->input('email');
+      $message->phone = $req->input('phone');
+      $message->message = $req->input('message');
+
+      $message->readed = false;
+      $message->favorite = false;
+
+      $message->save();
+
    }
 }

@@ -2071,7 +2071,7 @@ blockquote .author::before {
 .form-container textarea,
 .form-container select {
     height       : 65px;
-    padding      : 0 35px;
+    padding      : 0 , 5px;
     background   : rgba(99, 69, 237, 0.07);
     border       : 1px solid rgba(99, 69, 237, 0.12);
     border-radius: 7px;

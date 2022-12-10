@@ -14,57 +14,30 @@
                                 <h3>Send Me Message</h3>
                             </div>
                         </div>
-                        <form id="create-item-1" class="form-container" method="POST" action="{{ route('login') }}">
+                        <form id="create-item-1" class="form-container" method="POST" action="{{ route('contact.message') }}">
                             @csrf
+                            @method('POST')
                             
-                            <div class="col-12 mt-3">
-                                <label for="email" >{{ __('Email Address') }}</label>      
-                                <input id="email" type="email" class="tb-my-input @error('email') is-invalid @enderror" name="email" aria-required="true" value="{{ old('email') }}" required autocomplete="email" autofocus>
-                                @error('email')
-                                    <span class="invalid-feedback" role="alert">
-                                        <strong>{{ $message }}</strong>
-                                    </span>
-                                @enderror
+                            <div class="col-12 mt-3">     
+                                <input id="name" type="text" placeholder="Name (Optional)" class="tb-my-input @error('email') is-invalid @enderror" name="name" aria-required="true" value="{{ old('email') }}" required autocomplete="email" autofocus>
+                            </div>
+
+                            <div class="col-12 mt-3">     
+                                <input id="email" type="email" placeholder="Email" class="tb-my-input @error('email') is-invalid @enderror" name="email" aria-required="true" value="{{ old('email') }}" required autocomplete="email" autofocus>
+                            </div>
+                            
+                            <div class="col-12 mt-3">     
+                                <input id="phone" type="text" placeholder="Phone (Optional)" class="tb-my-input @error('email') is-invalid @enderror" name="phone" aria-required="true" value="{{ old('email') }}" required autocomplete="email" autofocus>
+                            </div>
+
+                            <div class="col-12 mt-3">     
+                                <textarea id="comment-message" name="message" placeholder="Write Message" aria-required="true" name="message"></textarea>
                             </div>
 
                             
-                            <div class="col-12 mt-3">
-                                <label for="password">{{ __('Password') }}</label>
-                                <!--Input password and button-eye should to have the same 
-                                    number on the end of its id, beacause it uses for jquery-->
-                                <input type="password" id="input-password-1" class="@error('password') is-invalid @enderror" name="password" required autocomplete="current-password">
-                                <button class="btn btn-password-eye" type="button" id="btn-password-eye-1">
-                                    <i id="bi-password-eye-1" class="bi bi-eye"></i>
-                                </button>
-
-                                @error('password')
-                                    <span class="invalid-feedback" role="alert">
-                                        <strong>{{ $message }}</strong>
-                                    </span>
-                                @enderror
-                            </div>
-                        
-                            <div class="col-12 mt-3">
-                                <div class="btn-check">
-                                    <input type="checkbox" name="remember" id="remember" {{ old('remember') ? 'checked' : '' }}>
-                                    <label class="form-check-label" for="remember">{{ __('Remember Me') }}</label>
-                                </div>
-                            </div>
 
                             <div class="col-12 mt-3">
-                                <button type="submit" class="sc-button style letter style-2">
-                                    {{ __('Login') }}
-                                </button>
-                            </div>
-
-                            <div class="col-6 mt-3">
-                                @if (Route::has('password.request'))
-                                    <a href="{{ route('password.request') }}">{{ __('Forgot Your Password?') }}</a>
-                                @endif
-                            </div>
-
-                            <div class="col-6 mt-3">
-                                <span><a href="{{route('register')}}">I am new here, register you here.</a></span>
+                                <button type="submit" class="sc-button style letter style-2">Send</button>
                             </div>
 
 

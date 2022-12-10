@@ -17,6 +17,7 @@ return new class extends Migration
             $table->increments('id');
             $table->string('name');
             $table->string('email' , 255);
+            $table->string('phone');
             $table->boolean('readed');
             $table->boolean('favorite');
             $table->longText('message');
