@@ -32,7 +32,6 @@ class MessagesController extends Controller{
 
    //Messages from contact section in the page
    public function contactMessage(Request $req){
-
       $message = new Message;
  
       $message->name = $req->input('name');
@@ -44,7 +43,6 @@ class MessagesController extends Controller{
       $message->favorite = false;
 
       $message->save();
-
 
       return view('site.contact.index')->with('success','success')->with('name',$req->input('name'));
    }
