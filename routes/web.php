@@ -17,6 +17,8 @@ Route::get('/aboutme', function () {
     return view('site.aboutme.index');
 })->name('aboutme');
 
+Route::get('/contact', function () { return view('site.contact.index');})->name('contact');
+
 
 Auth::routes();//Default routes of laravel auth
 Route::get('/inicio', function () {
