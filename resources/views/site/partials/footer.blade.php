@@ -75,7 +75,6 @@
 <script src="{{env('ASSETS_URL')}}assets/js/prism.js"></script>
 
 <script src="{{env('ASSETS_URL')}}assets/js/password-eye.js"></script>
-
 </body>
 
 </html>
