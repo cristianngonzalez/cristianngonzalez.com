@@ -9,7 +9,7 @@
 
     <table class="table striped table-border mt-4"
         data-role="table"
-        data-rows="5"
+        data-rows="10"
         data-rows-steps="5, 10"
         data-show-activity="false"
         data-rownum="false"

@@ -46,6 +46,8 @@ Route::get('/admin/emails', [App\Http\Controllers\admin\AdminController::class, 
 
 Route::get('/admin/messages' , [App\Http\Controllers\admin\AdminController::class, 'messages'] )->name('admin.messages');
 Route::get('/admin/messages/open/{message}' , [App\Http\Controllers\MessagesController::class, 'openMessage']  )->name('admin.messages.detail');
+
+Route::get('/admin/users',  [App\Http\Controllers\admin\AdminController::class, 'users'] )->name('admin.users');
 //End admin routes
 //------------------------------------------------------------------------------
 

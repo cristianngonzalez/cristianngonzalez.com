@@ -3,9 +3,8 @@
 
 @section('content')
 
-
 <div class="h-100 p-4">
-    <p class="h1">Messages</p>
+    <p class="h1">Users</p>
 
 
     <table class="table striped table-border mt-4"
@@ -21,21 +20,27 @@
             <tr>
                 <th data-sortable="true" data-sort-dir="asc"  data-format="int">ID</th>
                 <th data-sortable="true">Name</th>
-                <th data-sortable="true"  data-format="date" data-format-mask="%d-%m-%y" >Date</th>
-                <th data-sortable="false"></th>
+                <th data-sortable="true">Email</th>
+                <th data-sortable="false">Admin</th>
+                <th data-sortable="true"  data-format="date" data-format-mask="%d-%m-%y" >Delete</th>
             </tr>
         </thead>
         <tbody>
-            @foreach ($messages as $message)
+
+            @foreach ($users as $user)
                 <tr>
-                    <td>{{$message->id}}</td>
-                    <td><a href="{{route('admin.messages.detail' ,  [$message] )}}" target="_blank">{{$message->name}}</a></td>
-                    <td>{{$message->created_at}}</td>
+                    <td>{{$user->id}}</td>
+                    <td>{{$user->name}}</td>
+                    <td>{{$user->email}}</td>
+                    <!--Edit a post------------------------------------------------>
+                    <td>{{$user->admin}}</td>
+                    <!--End Edit a post------------------------------------------------>
                     <!--Delete a post------------------------------------------------>
-                    <td>Delete</td>
+                    <td>{{$user->created_at}}</td>
                     <!--End Delete a post------------------------------------------------>
                 </tr>
             @endforeach
+
         </tbody>
     </table>
 
