@@ -72,7 +72,9 @@
             <script src="https://cdn.korzh.com/metroui/v4/js/metro.min.js"></script>
 
         @else
-            <h1>Necesitas ser administrador idiota</h1>
+            @php
+                header("Location: " . URL::to('/'), true, 302);    exit();
+            @endphp
         @endif
     @endguest
     
