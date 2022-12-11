@@ -41,6 +41,7 @@
             <li class="divider"></li>
         </ul>
     </aside>
+
     <!--Content--------------------------------------------------->
     <div class="shifted-content-2 h-100 p-ab">
         <div class="appbar pos-absolute bg-red z-1" data-role="appbar">
@@ -49,5 +50,12 @@
             </button>
         </div>
 
-        
-    
+        @yield('content')
+
+    </div>
+    <!--End Content--------------------------------------------------->
+
+    <script src="https://cdn.korzh.com/metroui/v4/js/metro.min.js"></script>
+
+</body>
+</html>

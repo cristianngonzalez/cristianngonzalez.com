@@ -46,4 +46,9 @@ class MessagesController extends Controller{
 
       return view('site.contact.index')->with('success','success')->with('name',$req->input('name'));
    }
+
+   public function openMessage(Message $message){
+      return view('admin.messages.detail' , compact('message'));
+   }
+
 }

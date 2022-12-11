@@ -1,5 +1,5 @@
-@extends('admin.index')
-@section('title', 'Home ')
+@extends('admin.layouts.admin')
+@section('title', 'Blogs ')
 
 @section('content')
 

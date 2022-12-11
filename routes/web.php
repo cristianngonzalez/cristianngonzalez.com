@@ -36,15 +36,16 @@ Route::get('/inicio', function () {
 
 Route::get('/admin',  [App\Http\Controllers\admin\AdminController::class, 'blogs'] );
 Route::get('/admin/blogs',  [App\Http\Controllers\admin\AdminController::class, 'blogs'] )->name('admin.blogs');
-Route::get('/admin/blogs/new',  function(){
-    return view('admin.blog.new');
-} )->name('admin.blogs.new');
+Route::get('/admin/blogs/new',  function(){ return view('admin.blog.new');} )->name('admin.blogs.new');
 Route::post('/admin/blogs/create',  [App\Http\Controllers\BlogController::class, 'create']  )->name('admin.blogs.create');
 Route::post('/admin/blogs/delete',  [App\Http\Controllers\BlogController::class, 'delete']  )->name('admin.blogs.delete');
 Route::get('/admin/blogs/edit',  [App\Http\Controllers\BlogController::class, 'edit'] )->name('admin.blogs.edit');
 Route::post('/admin/blogs/update',  [App\Http\Controllers\BlogController::class, 'update']   )->name('admin.blogs.update');
 
 Route::get('/admin/emails', [App\Http\Controllers\admin\AdminController::class, 'emails'] );
+
+Route::get('/admin/messages' , [App\Http\Controllers\admin\AdminController::class, 'messages'] )->name('admin.messages');
+Route::get('/admin/messages/open/{message}' , [App\Http\Controllers\MessagesController::class, 'openMessage']  )->name('admin.messages.detail');
 //End admin routes
 //------------------------------------------------------------------------------
 
