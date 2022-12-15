@@ -19,7 +19,7 @@
 
                 <div class="post-author style-2">
                     <div class="avatar">
-                        <img src="assets/images/avatar/avt-12.jpg" alt="">
+                        <img src="{{env('ASSETS_URL')}}assets/images/avatar/profile.png" alt="">
                     </div>
                     <div class="content">
                         <h4><a href="#">Cristian N. Gonzalez</a></h4>

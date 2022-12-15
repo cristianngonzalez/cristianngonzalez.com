@@ -14,7 +14,7 @@ class SubscriptionController extends Controller{
         $subscription->email = $req->input('email');
         $subscription->save();
 
-        echo('Vamos a crear esto');
+        return redirect()->back()->with('subscription', 'success');   
         
     }
 }
