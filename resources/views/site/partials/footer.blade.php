@@ -1,5 +1,6 @@
 <section class="new-letter">
     <div class="container">
+
         <div class="new-letter-inner style-2 flex">
             <div class="new-letter-content">
                 <h3 class="heading">Newsletters</h3>
@@ -7,15 +8,16 @@
             </div>
             <div class="new-letter-img">
                 <div class="form-subcribe">
-                    <form id="subscribe-form" action="#" method="GET" accept-charset="utf-8"
-                        class="form-submit">
-                        <input name="email" value="" class="email" type="email"
-                            placeholder="Enter Email Address" required="">
+                    <form id="subscribe-form"  action="{{route('subscription.create')}}" method="POST" accept-charset="utf-8" class="form-submit">
+                        @csrf
+                        @method('POST')
+                        <input name="email" value="" class="email" type="email" placeholder="Enter Email Address" required="">
                         <button name="submit" type="submit" id="submit"  class="sc-button"><span>Subscribe</span> </button>
                     </form>
                 </div>
             </div>
         </div>
+
     </div>
 </section>
 

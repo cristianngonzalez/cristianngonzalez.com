@@ -31,6 +31,8 @@ Route::get('/inicio', function () {
     return view('site.user.login');
 })->name('inicio');
 
+Route::post('/subscription/create', [App\Http\Controllers\SubscriptionController::class, 'create'] )->name('subscription.create');
+
 //------------------------------------------------------------------------------
 //Admin routes
 
