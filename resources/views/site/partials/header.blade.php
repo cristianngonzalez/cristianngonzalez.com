@@ -5,17 +5,6 @@
 <!--<![endif]-->
 
 <head>
-    <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-SSNT15MP41"></script>
-    <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-
-    gtag('config', 'G-SSNT15MP41');
-    </script>
-
-
     <!-- Basic Page Needs -->
     <meta charset="utf-8">
 
@@ -47,6 +36,16 @@
 
 
 </head>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-SSNT15MP41"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-SSNT15MP41');
+</script>
+
 
 <body class="body header-fixed is_dark">
 
