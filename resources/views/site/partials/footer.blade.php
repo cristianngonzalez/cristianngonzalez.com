@@ -86,7 +86,15 @@
 
 <script src="{{env('ASSETS_URL')}}assets/js/password-eye.js"></script>
 
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-SSNT15MP41"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
 
+  gtag('config', 'G-SSNT15MP41');
+</script>
 
 
 
