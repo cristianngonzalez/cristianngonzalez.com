@@ -6,14 +6,14 @@
 
 <head>
     <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-8B0MNXZD93"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-8B0MNXZD93"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
 
-  gtag('config', 'G-8B0MNXZD93');
-</script>
+    gtag('config', 'G-8B0MNXZD93');
+    </script>
     <!-- Basic Page Needs -->
     <meta charset="utf-8">
 
@@ -98,6 +98,10 @@
 
                                             <li class="menu-item  @if (Request::path() == 'aboutme') current-item  @endif">
                                                 <a href="{{route('aboutme')}}">About me</a>
+                                            </li>
+
+                                            <li class="menu-item  @if (Request::path() == 'projects') current-item  @endif">
+                                                <a href="{{route('projects')}}">Projects</a>
                                             </li>
 
                                             @guest

@@ -17,6 +17,10 @@ Route::get('/aboutme', function () {
     return view('site.aboutme.index');
 })->name('aboutme');
 
+Route::get('/projects', function () {
+    return view('site.projects.index');
+})->name('projects');
+
 Route::get('/contact', function () { return view('site.contact.index');})->name('contact');
 Route::post('/contact/message', [App\Http\Controllers\MessagesController::class, 'contactMessage'] )->name('contact.message');
 
