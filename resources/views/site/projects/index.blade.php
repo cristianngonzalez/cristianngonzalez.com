@@ -21,12 +21,18 @@
                         <div class="col-auto col-project-info">
                             <h1>Dollar Blue Tool</h1>
                             <p>Dollar Blue Tool es una herramienta versatil ideal para intercambiantes de divisas, puede calcular divisas, buscar tiendas y cotizaciones en tiempo real.</p>
-
+                            <p>Aplicacion construida con <strong>Ionic 6</strong>, <strong>Angular 8</strong>, con estetica basada en <strong>Material Design</strong>.</p>
                             
 
                             <div class="project-info-links-container">
 
-                                <a href="" class="play-store-link"></a>
+                                <a href="https://play.google.com/store/apps/details?id=www.cristiangonzalez.site.dollarbluetool" target="_blank">
+                                    <div class="project-info-link project-info-link-play-store"></div>
+                                </a>
+
+                                <a href="https://play.google.com/store/apps/details?id=www.cristiangonzalez.site.dollarbluetool" target="_blank">
+                                    <div class="project-info-link project-info-link-github"></div>
+                                </a>
                             </div>
 
                         </div>
@@ -80,9 +86,28 @@
             font-size: 20px;
         }
         .project-info-links-container{
+            margin-top: 20px;
         }
 
         
+
+
+    .project-info-link{
+        height: 60px;
+        float: left;
+    }
+        .project-info-link:first-child{
+            margin-right: 10px;
+        }
+
+        .project-info-link-play-store{
+            width: 204px;
+            background-image: url('https://www.cristianngonzalez.com/public/assets/icon/play_store_get.svg');
+        }
+        .project-info-link-github{
+            width: 60px;
+            background-image: url('https://www.cristianngonzalez.com/public/assets/icon/github.svg');
+        }
 
 </style>
 
