@@ -22,9 +22,8 @@
 
                         <div class="col-auto col-project-info">
                             <h1>Dollar Blue Tool</h1>
-                            <p>Dollar Blue Tool es una herramienta versatil ideal para intercambiantes de divisas, puede calcular divisas, buscar tiendas y cotizaciones en tiempo real.</p>
-                            <p>Aplicacion construida con <strong>Ionic 5</strong>, <strong>Angular 8</strong>, con estetica basada en <strong>Material Design</strong>.</p>
-                            
+                            <p>Dollar Blue Tool is a versatile tool ideal for exchanging currencies in Argentina, it can calculate currencies, search for stores and quotes in real time.</p>
+                            <p>Application built with <strong>Ionic 5</strong>, <strong>Angular 8</strong>, with styles based on <strong>Material Design</strong>.</p>
 
                             <div class="project-info-links-container">
 
@@ -56,7 +55,7 @@
 
                         <div class="col-auto col-project-info">
                             <h1>Cristal Periodic Table</h1>
-                            <p>Cristal Period Table es una aplicacion web que juega con un estilo de transparencias construida con <strong>ReactJS</strong> y un fork de <strong>Boostrap</strong>. En Cristal Periodic Table los usuarios pueden filtrar entre los elementos, para estos filtros me he ayudado de las librerias de React Hook.</p>
+                            <p>Cristal Period Table is a web application that plays with a transparency style built with <strong>ReactJS</strong> and a fork of <strong>Boostrap</strong>. In Cristal Periodic Table, users can filter between the elements, for these filters I have used the React Hook libraries.</p>
                             
 
                             <div class="project-info-links-container">
@@ -88,9 +87,8 @@
 
                         <div class="col-auto col-project-info">
                             <h1>Whatsapp Button Maker</h1>
-                            <p>Esta es una aplicacion que he hecho para ayudar a algunas personas que me han consultado en fiverr para agregar un link de Whatsapp, por lo que a mi parecer es una tarea sencilla como para que ellos transifieran repositorios y demas tareas. Entonces les construi esta herramienta gratuita para que lo haga de manera rapida y facil. Construida con <strong>VueJS</strong></p>
+                            <p>This is an application that I have made to help some people who have consulted me on fiverr to add a WhatsApp link, so in my opinion it is a simple task for them to transfer repositories and other tasks. So I built this free tool for you to do it quickly and easily. Built with <strong>VueJS</strong></p>
                             
-
                             <div class="project-info-links-container">
 
                                 <a href="https://www.socialmaker.link/" target="_blank">
@@ -108,6 +106,10 @@
 
                 </div>
                 <!--////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////--->
+
+
+                
+
 
             </div>
         </div>
