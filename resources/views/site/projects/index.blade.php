@@ -20,6 +20,7 @@
                             <iframe class="project-iframe-youtube" width="500" height="315" src="https://www.youtube.com/embed/nwVbTEGrM9I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                         </div>
 
+                        
                         <div class="col-auto col-project-info">
                             <h1>Dollar Blue Tool</h1>
                             <p>Dollar Blue Tool is a versatile tool ideal for exchanging currencies in Argentina, it can calculate currencies, search for stores and quotes in real time.</p>
