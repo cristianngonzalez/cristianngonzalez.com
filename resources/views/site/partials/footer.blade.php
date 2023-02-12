@@ -60,7 +60,7 @@
 <!-- Bottom -->
 <div class="bottom">
     <div class="container">
-        <div class="bottom-inner">Copyright © 2022 Cristianngonzalez | Web Developer</div>
+        <div class="bottom-inner">Copyright © 2023 Cristianngonzalez | Web Developer</div>
     </div>
 </div>
 
