@@ -62,7 +62,7 @@
                             <div class="project-info-links-container">
 
                                 <a href="https://cristianngonzalez.github.io/periodic-table/" target="_blank">
-                                    <div class="project-info-link project-info-link-webapp">Ir a la aplicacion web.</div>
+                                    <div class="project-info-link project-info-link-webapp">Go to web app.</div>
                                 </a>
 
                                 <a href="https://github.com/cristianngonzalez/periodic-table" target="_blank">
@@ -93,7 +93,7 @@
                             <div class="project-info-links-container">
 
                                 <a href="https://www.socialmaker.link/" target="_blank">
-                                    <div class="project-info-link project-info-link-webapp">Ir a la aplicacion web.</div>
+                                    <div class="project-info-link project-info-link-webapp">Go to web app.</div>
                                 </a>
 
                                 <a href="https://github.com/cristianngonzalez/whatsappbuttonmaker" target="_blank">
@@ -108,7 +108,32 @@
                 </div>
                 <!--////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////--->
 
+                <!--////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////--->
+                <div class="wg-post-comments wg-post-project">
+                    
+                    <div class="row">
 
+                        <div class="col-auto col-project-video">
+                            <img src="{{env('ASSETS_URL')}}assets/images/projects/data-mining.png" alt="" class="project-iframe-youtube">
+                        </div>
+
+                        <div class="col-auto col-project-info">
+                            <h1>ML Data Miner</h1>
+                            <p>MercadoLibre is the most popular store in the most south american countries, with this code made in <strong>Python</strong> and <strong>Selenium</strong> you can convert all any product post in a csv file in minutes.</p>
+                            <p>To run this code you need install Jupiter notebooks. Contact me for any help. </p>
+                            <div class="project-info-links-container">
+
+                                <a href="https://github.com/cristianngonzalez/webscraping_mercadolibre" target="_blank">
+                                    <div class="project-info-link project-info-link-github"></div>
+                                </a>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+                <!--////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////--->
                 
 
 

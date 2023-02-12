@@ -106,7 +106,7 @@
 
                                             @guest
                                                 <li class="menu-item @if (Request::path() == 'login') current-item  @endif">
-                                                    <a href="{{route('login')}}">Login</a>  
+                                                    <a href="{{route('login')}}">@lang('links.login')</a>  
                                                 </li>
                                             @else
                                                 <li class="menu-item menu-item-has-children  @if (Request::path() == 'login' || Request::path() == 'signup' || Request::path() == 'profile') current-item  @endif">
