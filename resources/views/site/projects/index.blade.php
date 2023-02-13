@@ -92,7 +92,7 @@
                             
                             <div class="project-info-links-container">
 
-                                <a href="https://www.socialmaker.link/" target="_blank">
+                                <a href="https://cristianngonzalez.github.io/whatsappbuttonmaker/" target="_blank">
                                     <div class="project-info-link project-info-link-webapp">Go to web app.</div>
                                 </a>
 
