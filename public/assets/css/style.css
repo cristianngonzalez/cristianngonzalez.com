@@ -2819,9 +2819,8 @@ color: var(--primary-color4);
 }
 
 #scroll-top:after {
-    content    : "\f077";
-    font-family: "Font Awesome 5 Pro";
-    font-size  : 18px;
+    content    : "⮝";
+    font-size  : 30px;
     color      : var(--primary-color);
     font-weight: 600;
 }
