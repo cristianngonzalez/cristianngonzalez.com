@@ -81,16 +81,16 @@
                         <div class="col-12">
                             <div class="row justify-content-md-start justify-content-center">
                                 <div class="col-auto">
-                                    <a href="https://www.facebook.com/cristianngonzalezok" class="social-link-footer" target="_blank" class="active"><i class="fab fa-facebook"></i></a>
+                                    <a href="https://www.facebook.com/cristianngonzalezok" class="social-link-footer" target="_blank" class="active"><i class="bi bi-facebook"></i></a>
                                 </div>
                                 <div class="col-auto">
-                                    <a href="https://github.com/cristianngonzalez/cristianngonzalez.com" class="social-link-footer" target="_blank" class="active"><i class="fab fa-github"></i></a>
+                                    <a href="https://github.com/cristianngonzalez/cristianngonzalez.com" class="social-link-footer" target="_blank" class="active"><i class="bi bi-github"></i></a>
                                 </div>
                                 <div class="col-auto">
-                                    <a href="https://www.linkedin.com/in/cristianngonzalez/" class="social-link-footer" target="_blank" class="active"><i class="fab fa-linkedin-in"></i></a>
+                                    <a href="https://www.linkedin.com/in/cristianngonzalez/" class="social-link-footer" target="_blank" class="active"><i class="bi bi-linkedin"></i></a>
                                 </div>
                                 <div class="col-auto">
-                                    <a href="https://www.youtube.com/channel/UCTfVTTAkvF7KF4CF7U64ORQ" class="social-link-footer" target="_blank" class="active"><i class="fab fa-youtube"></i></a>
+                                    <a href="https://www.youtube.com/channel/UCTfVTTAkvF7KF4CF7U64ORQ" class="social-link-footer" target="_blank" class="active"><i class="bi bi-youtube"></i></a>
                                 </div>
                             </div>
                         </div>
