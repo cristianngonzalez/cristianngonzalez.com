@@ -30,28 +30,131 @@
 @endif
 
 
-<!--Footer-------------------------------------------------------------------------->
+<!--Footer
 <footer id="footer" class="clearfix bg-style ft-home-1">
     <div class="container">
         <div class="row">
-            <div class="col-lg-12 col-md-12 col-12">
+            <div class="col-lg-6 col-md-6 col-12">
                 <div class="widget widget-logo">
                     <div class="logo-footer" id="logo-footer">
                         <a href="index.html">
                             <img id="logo_footer" src="{{env('ASSETS_URL')}}assets/images/logo/logo_dark.png" alt="cristianngonzalez.com" width="151" height="45" data-retina="assets/images/logo/logo_dark@2x.png" data-width="151" data-height="45">
                         </a>
                     </div>
-                    <!--
-                    <p class="sub-widget-logo">Sed ut perspiciatis unde omnis iste natus error sit voluptate
-                        accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quaes
-                    </p>
-                    -->
+                    
+                    <p class="sub-widget-logo"></p>
+                    
                     
                 </div>
             </div>
             
+            <div class="col-lg-6 col-md-6 col-12">
+                <div class="row">
+                    <div class="col-auto"></div>
+                </div>
+            </div>
             
             
+        </div>
+    </div>
+</footer>
+
+-->
+
+
+
+<footer id="footer" class="clearfix bg-style ft-home-1">
+    <div class="container">
+        <div class="row justify-content-md-between justify-content-center">
+            <div class="col-lg-3 col-md-6 col-12">
+                
+                <div class="row justify-content-md-start justify-content-center text-md-left text-center">
+                    <div class="widget widget-logo">
+                        <div class="logo-footer" id="logo-footer">
+                            <a href="index.html">
+                                <img id="logo_footer" src="assets/images/logo/logo_dark.png" alt="nft-gaming" width="151" height="45" data-retina="assets/images/logo/logo_dark@2x.png" data-width="151" data-height="45">
+                            </a>
+                        </div>
+                        <p class="sub-widget-logo">Web and aplications development and dataminer.</p>
+                        
+                        <!------------------------------------------------------------------------------------------------------>
+                        <div class="col-12">
+                            <div class="row justify-content-md-start justify-content-center">
+                                <div class="col-auto">
+                                    <a href="https://www.facebook.com/cristianngonzalezok" class="social-link-footer" target="_blank" class="active"><i class="fab fa-facebook"></i></a>
+                                </div>
+                                <div class="col-auto">
+                                    <a href="https://github.com/cristianngonzalez/cristianngonzalez.com" class="social-link-footer" target="_blank" class="active"><i class="fab fa-github"></i></a>
+                                </div>
+                                <div class="col-auto">
+                                    <a href="https://www.linkedin.com/in/cristianngonzalez/" class="social-link-footer" target="_blank" class="active"><i class="fab fa-linkedin-in"></i></a>
+                                </div>
+                                <div class="col-auto">
+                                    <a href="https://www.youtube.com/channel/UCTfVTTAkvF7KF4CF7U64ORQ" class="social-link-footer" target="_blank" class="active"><i class="fab fa-youtube"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <!----------------------------------------------------------------------------------------------------->
+
+                    </div>
+                </div>
+                
+            </div>
+            <div class="col-lg-2 col-md-6 col-sm-6 col-6">
+                <div class="widget widget-menu menu-marketplace text-md-left text-center">
+                    <h5 class="title-widget">Services</h5>
+                    <ul>
+                        <li><a href="item.html">Mobile apps</a></li>
+                        <li><a href="item.html">Web apps</a></li>
+                        <li><a href="item.html">Backend</a></li>
+                        <li><a href="item.html">Data Science</a></li>
+                    </ul>
+                </div>
+            </div>
+            <!--
+            <div class="col-lg-3 col-md-6 col-sm-6 col-6">
+                <div class="widget widget-menu menu-supports">
+                    <h5 class="title-widget">Supports</h5>
+                    <ul>
+                        <li><a href="contact.html">Setting &amp; Privacy </a></li>
+                        <li><a href="contact.html">Help &amp; Support </a></li>
+                        <li><a href="item.html">Live Auctions</a></li>
+                        <li><a href="item-details.html"> Item Details</a></li>
+                        <li><a href="contact.html"> 24/7 Supports</a></li>
+                        <li><a href="blog.html">Blog</a></li>
+                    </ul>
+                </div>
+            </div>
+            -->
+            <!--
+            <div class="col-lg-4 col-md-6 col-sm-12 col-12">
+                <div class="widget widget-post">
+                    <h5 class="title-widget">Post</h5>
+                    <ul class="post-new">
+                        <li>
+                            <div class="post-img">
+                                <img src="assets/images/post/post-recent-new-4.jpg" alt="Post New">
+                            </div>
+                            <div class="post-content">
+                                <h6 class="title"><a href="blog-details.html">Roll Out New Features Without
+                                        Hurting Loyal Users</a></h6>
+                                <a href="blog-details.html" class="post-date"><i class="far fa-calendar-week"></i> 25 JAN 2022</a>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="post-img">
+                                <img src="assets/images/post/post-recent-new-5.jpg" alt="Post New">
+                            </div>
+                            <div class="post-content">
+                                <h6 class="title"><a href="blog-details.html">An Overview The Most Comon UX
+                                        Design Deliverables</a></h6>
+                                <a href="blog-details.html" class="post-date"><i class="far fa-calendar-week"></i> 25 JAN 2022</a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            -->
         </div>
     </div>
 </footer>

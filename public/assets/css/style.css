@@ -3052,8 +3052,21 @@ background-color: var(--color-4);
 }
 
 
-
-
+.social-link-footer{
+    padding: 10px;
+    padding-left: 11px;
+    padding-right: 11px;
+    border-radius: 35px;
+    background: white;
+    color: black;
+    margin-right: 20px;
+}
+@media(max-width: 767px){
+    .social-link-footer{
+        margin-right: 7px;
+        margin-left: 7px;
+    }
+}
 
 
 
