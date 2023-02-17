@@ -104,10 +104,10 @@
                 <div class="widget widget-menu menu-marketplace text-md-left text-center">
                     <h5 class="title-widget">Services</h5>
                     <ul>
-                        <li><a href="item.html">Mobile apps</a></li>
-                        <li><a href="item.html">Web apps</a></li>
-                        <li><a href="item.html">Backend</a></li>
-                        <li><a href="item.html">Data Science</a></li>
+                        <li><a href="#">Mobile apps</a></li>
+                        <li><a href="#">Web apps</a></li>
+                        <li><a href="#">Backend</a></li>
+                        <li><a href="#">Data Science</a></li>
                     </ul>
                 </div>
             </div>
