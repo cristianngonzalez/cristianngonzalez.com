@@ -24,8 +24,6 @@ class BlogController extends Controller{
 
 
     public function set(Request $req){
-
-
         $file = $req->file('picture-file');
         $file_name = Str::uuid()->toString();
 
@@ -39,8 +37,7 @@ class BlogController extends Controller{
             'published' => true
         ]);
 
-        //Return with te info of the new blog added
-        //return view('admin.blog.new' , array('newblog' => $req->input('title')) );
+        return view('admin.blog.new' , array('newblog' => $req->input('title')) );
     }
 
     public function delete(Request $req){
