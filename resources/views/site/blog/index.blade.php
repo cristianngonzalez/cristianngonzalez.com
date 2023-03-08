@@ -34,7 +34,7 @@
                 <div class="col-lg-4 col-md-6">
                     <article class="sc-card-article">
                         <div class="card-media">
-                            <a href="blog-details.html"><img src="assets/images/post/post-1.jpg" alt=""></a>
+                            <a href="blog-details.html"><img src="{{url('/')}}/storage/{{$blog->picture}}" alt=""></a>
                         </div>
                         <div class="content">
                             <div class="meta-info">

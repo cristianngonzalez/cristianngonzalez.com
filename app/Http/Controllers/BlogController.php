@@ -3,15 +3,16 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Storage;
+use Illuminate\Support\Str;
 
 use App\Models\Blog;
 
+
 class BlogController extends Controller{
-    //
+    
     public function index(){
-
         $blogs = Blog::all();
-
 
         return view('site.blog.index' , compact('blogs') );
     }
@@ -22,20 +23,24 @@ class BlogController extends Controller{
     }
 
 
-    public function create(Request $req){
+    public function set(Request $req){
 
-        $blog = new Blog;
- 
-        $blog->title = $req->input('title');
-        $blog->article = $req->input('article');
-        $blog->picture = 'Hola' /*$req->input('picture')*/;
-        $blog->video = $req->input('video');
 
-        $blog->save();
+        $file = $req->file('picture-file');
+        $file_name = Str::uuid()->toString();
+
+        $file->storeAs('' , $file_name . "." . $file->extension() , 'public');
+
+        Blog::create([
+            'title' => $req->input('title') ,
+            'article' => $req->input('article') ,
+            'picture' => $file_name . "." . $file->extension() ,
+            'video' => $req->input('video'),
+            'published' => true
+        ]);
 
         //Return with te info of the new blog added
-        return view('admin.blog.new' , array('newblog' => $req->input('title')) );
-        
+        //return view('admin.blog.new' , array('newblog' => $req->input('title')) );
     }
 
     public function delete(Request $req){
