@@ -51,7 +51,7 @@ class MessagesController extends Controller{
 
       Mail::to('contact@cristianngonzalez.com')->send(new MessageReceived($name , $email , $message));
 
-      return view('site.contact.index')->with('success','success')->with('name',$req->input('name'));
+      return redirect('/contact');
    }
 
    public function openMessage(Message $message){
