@@ -34,32 +34,6 @@
 
 
 
-<footer id="footer" class="clearfix bg-style ft-home-1">
-    <div class="container">
-        <div class="row justify-content-md-between justify-content-center">
-            <div class="col-lg-3 col-md-6 col-12">
-                
-                <div class="row justify-content-md-start justify-content-center text-md-left text-center">
-                    <div class="widget widget-logo">
-                        <div class="logo-footer" id="logo-footer">
-                            <a href="index.html">
-                                
-                            </a>
-                        </div>
-                        <p class="sub-widget-logo"></p>
-                        
-                        
-
-                    </div>
-                </div>
-                
-            </div>
-        </div>
-    </div>
-</footer>
-<!--footer-------------------------------------------------------------------------------->
-
-
 
 
 
