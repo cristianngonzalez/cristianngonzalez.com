@@ -101,7 +101,7 @@
                                             </li>
 
                                             <li class="menu-item  @if (Request::path() == 'projects') current-item  @endif">
-                                                <a href="{{route('projects')}}">Projects</a>
+                                                <a href="{{route('projects')}}">Projectos de ejemplo....</a>
                                             </li>
 
                                             @guest
