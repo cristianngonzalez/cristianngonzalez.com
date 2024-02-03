@@ -26,10 +26,10 @@
     <meta name="author" content="Cristian Nazareno Gonzalez">
     <!-- Mobile Specific Metas -->
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-    <!-- Theme Style -->
+    {{-- <!-- Theme Style -->
     <link rel="stylesheet" type="text/css" href="{{env('ASSETS_URL')}}assets/css/style.css">
     <!-- Reponsive -->
-    <link rel="stylesheet" type="text/css" href="{{env('ASSETS_URL')}}assets/css/responsive.css">
+    <link rel="stylesheet" type="text/css" href="{{env('ASSETS_URL')}}assets/css/responsive.css"> --}}
     <!-- Favicon and Touch Icons  -->
     <link rel="shortcut icon" href="{{env('ASSETS_URL')}}assets/icon/Favicon.png">
     <link rel="apple-touch-icon-precomposed" href="assets/icon/Favicon.png">
@@ -40,11 +40,14 @@
     <link rel="stylesheet" href="{{env('ASSETS_URL')}}assets/css/prism.css">
     <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
 
+    <!--Bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+
     <script src="{{env('ASSETS_URL')}}assets/js/jquery.min.js"></script>
 
-
-
 </head>
+
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-8B0MNXZD93"></script>
 <script>
@@ -54,14 +57,13 @@
 
   gtag('config', 'G-8B0MNXZD93');
 </script>
+<!-- End Google tag (gtag.js) -->
 
-<body class="body header-fixed is_dark">
+<body>
 
-    <!-- preloade -->
-    <div class="preload preload-container">
-        <div class="preload-logo"></div>
-    </div>
-    <!-- /preload -->
+
+    
+
 
     <div id="wrapper">
         <div id="page" class="clearfix">
@@ -82,26 +84,35 @@
 
             @include('site.partials.footer')
 
+            <!-- Bottom -->
+            <div class="bottom">
+                <div class="container">
+                    <div class="bottom-inner">Copyright © 2023 Cristianngonzalez | Web Developer</div>
+                </div>
+            </div>
+
+        </div>
+        <!-- /#page -->
+    </div>
+    <!-- /#wrapper -->
+
+    <a id="scroll-top"></a>
+
+    <!-- Javascript -->
+    <script src="{{env('ASSETS_URL')}}assets/js/jquery.easing.js"></script>
+    <script src="{{env('ASSETS_URL')}}assets/js/bootstrap.min.js"></script>
+    <script src="{{env('ASSETS_URL')}}assets/js/swiper-bundle.min.js"></script>
+    <script src="{{env('ASSETS_URL')}}assets/js/swiper.js"></script>
             
+    <script src="{{env('ASSETS_URL')}}assets/js/plugin.js"></script>
+    <script src="{{env('ASSETS_URL')}}assets/js/count-down.js"></script>
+    <script src="{{env('ASSETS_URL')}}assets/js/shortcodes.js"></script>
+    <script src="{{env('ASSETS_URL')}}assets/js/main.js"></script>
+    <script src="{{env('ASSETS_URL')}}assets/js/prism.js"></script>
             
-            <!-- Javascript -->
-            <script src="{{env('ASSETS_URL')}}assets/js/jquery.easing.js"></script>
-            <script src="{{env('ASSETS_URL')}}assets/js/bootstrap.min.js"></script>
-            <script src="{{env('ASSETS_URL')}}assets/js/swiper-bundle.min.js"></script>
-            <script src="{{env('ASSETS_URL')}}assets/js/swiper.js"></script>
+    <script src="{{env('ASSETS_URL')}}assets/js/password-eye.js"></script>    
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
             
-            <script src="{{env('ASSETS_URL')}}assets/js/plugin.js"></script>
-            <script src="{{env('ASSETS_URL')}}assets/js/count-down.js"></script>
-            <script src="{{env('ASSETS_URL')}}assets/js/shortcodes.js"></script>
-            <script src="{{env('ASSETS_URL')}}assets/js/main.js"></script>
-            <script src="{{env('ASSETS_URL')}}assets/js/prism.js"></script>
-            
-            <script src="{{env('ASSETS_URL')}}assets/js/password-eye.js"></script>
-            
-            
-            
-            
-            
-            </body>
-            
-            </html>
+</body>
+</html>
