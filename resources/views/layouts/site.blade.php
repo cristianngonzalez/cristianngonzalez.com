@@ -68,6 +68,8 @@
 
     @include('site.partials.modal-contact')
 
+    @include('site.partials.newsletter-form')
+
     @include('site.partials.footer')
 
 
