@@ -46,7 +46,7 @@
                                 <img id="logo_footer" src="{{env('ASSETS_URL')}}assets/images/logo/logo_dark.png" alt="cristianngonzalez" width="151" height="45" data-retina="assets/images/logo/logo_dark@2x.png" data-width="151" data-height="45">
                             </a>
                         </div>
-                        <p class="sub-widget-logo">Web and aplications development and dataminer.</p>
+                        <p class="sub-widget-logo"></p>
                         
                         <!------------------------------------------------------------------------------------------------------>
                         <div class="col-12">
@@ -82,54 +82,70 @@
                     </ul>
                 </div>
             </div>
-            <!--
-            <div class="col-lg-3 col-md-6 col-sm-6 col-6">
-                <div class="widget widget-menu menu-supports">
-                    <h5 class="title-widget">Supports</h5>
-                    <ul>
-                        <li><a href="contact.html">Setting &amp; Privacy </a></li>
-                        <li><a href="contact.html">Help &amp; Support </a></li>
-                        <li><a href="item.html">Live Auctions</a></li>
-                        <li><a href="item-details.html"> Item Details</a></li>
-                        <li><a href="contact.html"> 24/7 Supports</a></li>
-                        <li><a href="blog.html">Blog</a></li>
-                    </ul>
-                </div>
-            </div>
-            -->
-            <!--
-            <div class="col-lg-4 col-md-6 col-sm-12 col-12">
-                <div class="widget widget-post">
-                    <h5 class="title-widget">Post</h5>
-                    <ul class="post-new">
-                        <li>
-                            <div class="post-img">
-                                <img src="assets/images/post/post-recent-new-4.jpg" alt="Post New">
-                            </div>
-                            <div class="post-content">
-                                <h6 class="title"><a href="blog-details.html">Roll Out New Features Without
-                                        Hurting Loyal Users</a></h6>
-                                <a href="blog-details.html" class="post-date"><i class="far fa-calendar-week"></i> 25 JAN 2022</a>
-                            </div>
-                        </li>
-                        <li>
-                            <div class="post-img">
-                                <img src="assets/images/post/post-recent-new-5.jpg" alt="Post New">
-                            </div>
-                            <div class="post-content">
-                                <h6 class="title"><a href="blog-details.html">An Overview The Most Comon UX
-                                        Design Deliverables</a></h6>
-                                <a href="blog-details.html" class="post-date"><i class="far fa-calendar-week"></i> 25 JAN 2022</a>
-                            </div>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-            -->
         </div>
     </div>
 </footer>
 <!--footer-------------------------------------------------------------------------------->
 
 
-<a id="scroll-top"></a>
+
+
+
+
+<!-- Footer -->
+<footer class="bg-primary text-white text-center text-lg-start">
+    <div class="container p-4">
+      <div class="row">
+        <div class="col-lg-6 col-md-12 mb-4 mb-md-0">
+          <h5>Cristian N Gonzalez</h5>
+          <p>
+            Web and aplications development and dataminer.
+          </p>
+        </div>
+        
+        <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+          <h5 class="text-uppercase">Enlaces</h5>
+
+          <ul class="list-unstyled mb-0">
+            <li>
+              <a href="#!" class="text-white">Enlace 1</a>
+            </li>
+            <li>
+              <a href="#!" class="text-white">Enlace 2</a>
+            </li>
+            <li>
+              <a href="#!" class="text-white">Enlace 3</a>
+            </li>
+            <li>
+              <a href="#!" class="text-white">Enlace 4</a>
+            </li>
+          </ul>
+        </div>
+        
+        <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+          <h5 class="text-uppercase">Contacto</h5>
+
+          <ul class="list-unstyled">
+            <li>
+              <a href="#!" class="text-white">Link 1</a>
+            </li>
+            <li>
+              <a href="#!" class="text-white">Link 2</a>
+            </li>
+            <li>
+              <a href="#!" class="text-white">Link 3</a>
+            </li>
+            <li>
+              <a href="#!" class="text-white">Link 4</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    
+    <!-- Derechos de autor -->
+    <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+      © 2024 Derechos Reservados:
+      <a class="text-white" href="https://tusitio.com/">tusitio.com</a>
+    </div>
+  </footer>

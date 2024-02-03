@@ -62,39 +62,14 @@
 <body>
 
 
-    
+    @include('site.partials.header')
 
+    @yield('content')
 
-    <div id="wrapper">
-        <div id="page" class="clearfix">
+    @include('site.partials.modal-contact')
 
+    @include('site.partials.footer')
 
-           @include('site.partials.header')
-
-
-            @yield('content')
-
-
-            @include('site.partials.modal-contact')
-
-
-
-
-
-
-            @include('site.partials.footer')
-
-            <!-- Bottom -->
-            <div class="bottom">
-                <div class="container">
-                    <div class="bottom-inner">Copyright © 2023 Cristianngonzalez | Web Developer</div>
-                </div>
-            </div>
-
-        </div>
-        <!-- /#page -->
-    </div>
-    <!-- /#wrapper -->
 
     <a id="scroll-top"></a>
 
