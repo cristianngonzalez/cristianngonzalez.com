@@ -1,3 +1,5 @@
+
+
 <section class="new-letter">
     <div class="container">
 
@@ -29,37 +31,6 @@
     </script>
 @endif
 
-
-<!--Footer
-<footer id="footer" class="clearfix bg-style ft-home-1">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-6 col-md-6 col-12">
-                <div class="widget widget-logo">
-                    <div class="logo-footer" id="logo-footer">
-                        <a href="index.html">
-                            <img id="logo_footer" src="{{env('ASSETS_URL')}}assets/images/logo/logo_dark.png" alt="cristianngonzalez.com" width="151" height="45" data-retina="assets/images/logo/logo_dark@2x.png" data-width="151" data-height="45">
-                        </a>
-                    </div>
-                    
-                    <p class="sub-widget-logo"></p>
-                    
-                    
-                </div>
-            </div>
-            
-            <div class="col-lg-6 col-md-6 col-12">
-                <div class="row">
-                    <div class="col-auto"></div>
-                </div>
-            </div>
-            
-            
-        </div>
-    </div>
-</footer>
-
--->
 
 
 
@@ -173,26 +144,3 @@
 <!-- /#wrapper -->
 
 <a id="scroll-top"></a>
-
-
-<!-- Javascript -->
-<script src="{{env('ASSETS_URL')}}assets/js/jquery.easing.js"></script>
-<script src="{{env('ASSETS_URL')}}assets/js/bootstrap.min.js"></script>
-<script src="{{env('ASSETS_URL')}}assets/js/swiper-bundle.min.js"></script>
-<script src="{{env('ASSETS_URL')}}assets/js/swiper.js"></script>
-
-<script src="{{env('ASSETS_URL')}}assets/js/plugin.js"></script>
-<script src="{{env('ASSETS_URL')}}assets/js/count-down.js"></script>
-<script src="{{env('ASSETS_URL')}}assets/js/shortcodes.js"></script>
-<script src="{{env('ASSETS_URL')}}assets/js/main.js"></script>
-<script src="{{env('ASSETS_URL')}}assets/js/prism.js"></script>
-
-<script src="{{env('ASSETS_URL')}}assets/js/password-eye.js"></script>
-
-
-
-
-
-</body>
-
-</html>

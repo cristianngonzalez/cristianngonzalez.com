@@ -44,3 +44,7 @@
 <p>
 If you want to upload to server just you have to push your changes in branch master and push the branch master. Then you have to connect with our ssh server and merge master changes in the server.
 </p>
+
+
+## Database
+This proyect has seeders and models 
