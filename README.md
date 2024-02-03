@@ -4,7 +4,7 @@
 <p>
     This proyect uses Laravel and others composer dependencies that we need to install.
     <code>
-        composer install --ignore-platform-req=ext-fileinfo
+        composer install
     </code>
 </p>
 
@@ -38,4 +38,9 @@
     <code>
         php artisan serve
     </code>
+</p>
+
+## Upload to server
+<p>
+If you want to upload to server just you have to push your changes in branch master and push the branch master. Then you have to connect with our ssh server and merge master changes in the server.
 </p>
