@@ -4,53 +4,90 @@
 @section('content')
 
 
-<section class="tf-slider mb-4">
-    <div class="swiper-container slider ">
-        <div class="swiper-wrapper">
-            <div class="swiper-slide wow fadeInUp">
-                <div class="slider-item">
-                    <div class="overlay"></div>
-                    <div class="slider-inner flex home-1">
-                        <div class="slider-content">
-                            <h1 class="heading">Mobile apps for Android and IOS</h1>
-                            <p class="sub-heading">Mobile applications created with web technology converted to native, we can create your app from scratch or take advantage of your current site and expand to the native mobile world.</p>
-                            <!--
-                            <div class="button-slider">
-                                <a href="explore-1.html" class="sc-button btn-bordered-white style letter "><span>Explore More</span></a>
-                                <a href="create-item.html" class="sc-button btn-bordered-white style file"><span>Create Now</span></a>
-                            </div>
-                            -->
-                        </div>
-                        <div class="slider-img">
-                            <div class="img-home-1"><img src="{{env('ASSETS_URL')}}assets/images/slider/mobiledev.png" alt="Image"></div>
-                        </div>
-                    </div>
-                </div><!-- item-->
-            </div>
-
-
-            <div class="swiper-slide wow fadeInUp">
-                <div class="slider-item">
-                    <div class="overlay"></div>
-                    <div class="slider-inner flex home-1">
-                        <div class="slider-content">
-                            <h1 class="heading">Frontend development</h1>
-                            <p class="sub-heading">Frontend development, we turn any sketch, photoshop or figma into an incredible website. We adapt it to the most popular frontend framework technologies.</p>
-                        </div>
-                        <div class="slider-img">
-                            <div class="img-home-1"><img src="{{env('ASSETS_URL')}}assets/images/slider/frontenddev.png" alt="Image"></div>
-                        </div>
-                    </div>
-                </div><!-- item-->
-            </div>
-
-
-        </div>
-        <div class="swiper-pagination"></div>
-        <div class="swiper-button-next btn-slide-next"></div>
-        <div class="swiper-button-prev btn-slide-prev"></div>
+<!--Top Carousel--------------------------------------------------------->
+<div id="carouselExampleCaptions" class="carousel slide">
+    <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
     </div>
-</section>
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+            <img src="https://cdn2.hubspot.net/hubfs/156214/blog/Que%20es%20un%20banner-1.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+                <h5>First slide label</h5>
+                <p>Some representative placeholder content for the first slide.</p>
+            </div>
+        </div>
+        <div class="carousel-item">
+            <img src="https://cdn2.hubspot.net/hubfs/156214/blog/Que%20es%20un%20banner-1.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+                <h5>Second slide label</h5>
+                <p>Some representative placeholder content for the second slide.</p>
+            </div>
+        </div>
+        <div class="carousel-item">
+            <img src="https://cdn2.hubspot.net/hubfs/156214/blog/Que%20es%20un%20banner-1.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+                <h5>Third slide label</h5>
+                <p>Some representative placeholder content for the third slide.</p>
+            </div>
+        </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+    </button>
+</div>
+<!--End Top Carousel----------------------------------------------------->
+
+
+<div class="container-fluid">
+    <div class="row mt-5">
+        <div class="col-12">
+            <h2>Videos</h2>
+        </div>
+    </div>
+    <div class="row mb-5 justify-content-center">
+        <div class="col-md-4">
+            <div class="card">
+                <img src="https://cdn2.hubspot.net/hubfs/156214/blog/Que%20es%20un%20banner-1.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title
+                    ">Card title</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card">
+                <img src="https://cdn2.hubspot.net/hubfs/156214/blog/Que%20es%20un%20banner-1.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title
+                    ">Card title</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card">
+                <img src="https://cdn2.hubspot.net/hubfs/156214/blog/Que%20es%20un%20banner-1.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title
+                    ">Card title</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+            </div>
+        </div>  
+    </div>
+</div>
 
     
 @endsection
