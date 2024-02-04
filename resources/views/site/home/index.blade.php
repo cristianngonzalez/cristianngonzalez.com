@@ -45,11 +45,47 @@
 </div>
 <!--End Top Carousel----------------------------------------------------->
 
-
 <div class="container-fluid">
     <div class="row mt-5">
         <div class="col-12">
             <h2>Videos</h2>
+        </div>
+    </div>
+    <div class="row mb-5 justify-content-center">
+
+        <!--Video--------------------------------------------------------->
+        <div class="col-md-4 col-sm-6 mt-1 mb-1">
+            <div class="card">
+                <iframe src="https://www.youtube.com/embed/Ku5eYEJQowM?si=t9xu4hT3qnEXS4yb" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </div>
+        </div>
+        <!--End Video----------------------------------------------------->
+
+        <!--Video--------------------------------------------------------->
+        <div class="col-md-4 col-sm-6 mt-1 mb-1">
+            <div class="card">
+                <iframe src="https://www.youtube.com/embed/Mc45cf0AVJg?si=IezABD2S-c9j33Nr" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </div>
+        </div>
+        <!--End Video----------------------------------------------------->
+
+        <!--Video--------------------------------------------------------->
+        <div class="col-md-4 col-sm-6 mt-1 mb-1">
+            <div class="card">
+                <iframe src="https://www.youtube.com/embed/nwVbTEGrM9I?si=MrZo6mH1FdjMPC_Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </div>
+        </div>
+        <!--End Video----------------------------------------------------->
+
+    </div>
+</div>
+
+
+{{-- Blogs se van a guardar para futuro 
+<div class="container-fluid">
+    <div class="row mt-5">
+        <div class="col-12">
+            <h2>Blogs</h2>
         </div>
     </div>
     <div class="row mb-5 justify-content-center">
@@ -87,7 +123,7 @@
             </div>
         </div>  
     </div>
-</div>
+</div> --}}
 
     
 @endsection
