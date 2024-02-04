@@ -39,13 +39,15 @@
 
         <div class="col-md-3">
             <div class="card">
-                <img src="" alt="" class="card-img-top">
+                <img src="{{env('ASSETS_URL')}}assets/images/icon/icon-2.svg" alt="" class="card-img-top">
                 <div class="card-body">
-
+                    <h3 class="card-title">Angular</h3>
+                    <p class="card-text">Angular is a JavaScript frontend framework for building complex applications in a simpler and more scalable way.</p>
                 </div>
-                <p class="card-text"></p>
+                
             </div>
         </div>
+
 
         <div class="col-md-3">
             <div class="card">
@@ -147,28 +149,10 @@
 
 
                 <div class="row">
-                    <div class="col-lg-4 col-md-4">
-                        <div class="sc-wallet">
-                            <div class="icon">
-                                
-                            </div>
-                            <div class="content">
-                                <h4><a href="#">React</a></h4>
-                                <p>React is a JavaScript frontend framework for building complex applications in a simpler and more scalable way.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-4">
-                        <div class="sc-wallet">
-                            <div class="icon">
-                                <img src="{{env('ASSETS_URL')}}assets/images/icon/icon-2.svg" alt="">
-                            </div>
-                            <div class="content">
-                                <h4><a href="#">Angular</a></h4>
-                                <p>Angular is a JavaScript frontend framework for building complex applications in a simpler and more scalable way.</p>
-                            </div>
-                        </div>
-                    </div>
+
+
+
+                    
                     <div class="col-lg-4 col-md-4">
                         <div class="sc-wallet">
                             <div class="icon">
