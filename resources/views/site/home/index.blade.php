@@ -53,7 +53,7 @@
         </div>
     </div>
     <div class="row mb-5 justify-content-center">
-        <div class="col-md-4">
+        <div class="col-md-4 col-sm-6 mt-1 mb-1">
             <div class="card">
                 <img src="https://cdn2.hubspot.net/hubfs/156214/blog/Que%20es%20un%20banner-1.jpg" class="card-img-top" alt="...">
                 <div class="card-body">
@@ -64,7 +64,7 @@
                 </div>
             </div>
         </div>
-        <div class="col-md-4">
+        <div class="col-md-4 col-sm-6 mt-1 mb-1">
             <div class="card">
                 <img src="https://cdn2.hubspot.net/hubfs/156214/blog/Que%20es%20un%20banner-1.jpg" class="card-img-top" alt="...">
                 <div class="card-body">
@@ -75,7 +75,7 @@
                 </div>
             </div>
         </div>
-        <div class="col-md-4">
+        <div class="col-md-4 col-sm-6 mt-1 mb-1">
             <div class="card">
                 <img src="https://cdn2.hubspot.net/hubfs/156214/blog/Que%20es%20un%20banner-1.jpg" class="card-img-top" alt="...">
                 <div class="card-body">
