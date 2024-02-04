@@ -4,6 +4,134 @@
 @section('content')
 
 
+<div class="container">
+    <div class="row">
+        <div class="col-md-6">
+            <img src="{{env('ASSETS_URL')}}assets/images/avatar/profile.png" alt="">
+        </div>
+        <div class="col-md-6">
+            <h1><a href="#">Cristian N. Gonzalez</a></h1>
+            <div class="job">Web developer</div>
+            <p>I am a technology enthusiast, since I started my working career at the age of 18. I have gone through various work areas, I must tell you that my career did not begin in the world of software development, but rather my Master of Works title gave me the opportunity to work with CAD plan drawings. Little by little, that took me to vector illustration moving on to video animations. That fueled my curiosity so that in 2019 I started self-taught at first to dedicate myself to the world of frontend web development, until a very short time later I went through full stack web development.</p>
+            <ul>
+                <li><a href="https://www.facebook.com/cristianngonzalezok" target="_blank"><i class="bi bi-facebook"></i> Facebook</a></li>
+                <li><a href="www.instagram.com/cristianngonzalez_" target="_blank"><i class="bi bi-instagram"></i></a> Instagram</li>
+                <li><a href="https://www.linkedin.com/in/cristianngonzalez/" target="_blank"><i class="bi bi-linkedin"></i> Linkedin</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-md-12"> 
+            <h2>Technologies I use</h2>
+            <p>In this time I have been able to learn and use some popular technologies in various web or web related projects.</p>
+        </div>
+
+        <div class="col-md-3">
+            <div class="card">
+                <img class="card-img-top" src="{{env('ASSETS_URL')}}assets/images/icon/icon-1.svg" alt="">
+                <div class="card-body">
+                    <h3 class="card-title">React</h3>
+                    <p class="card-text">React is a JavaScript frontend framework for building complex applications in a simpler and more scalable way.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-3">
+            <div class="card">
+                <img src="" alt="" class="card-img-top">
+                <div class="card-body">
+
+                </div>
+                <p class="card-text"></p>
+            </div>
+        </div>
+
+        <div class="col-md-3">
+            <div class="card">
+                <img src="" alt="" class="card-img-top">
+                <div class="card-body">
+
+                </div>
+                <p class="card-text"></p>
+            </div>
+        </div>
+
+        <div class="col-md-3">
+            <div class="card">
+                <img src="" alt="" class="card-img-top">
+                <div class="card-body">
+
+                </div>
+                <p class="card-text"></p>
+            </div>
+        </div>
+
+        <div class="col-md-3">
+            <div class="card">
+                <img src="" alt="" class="card-img-top">
+                <div class="card-body">
+
+                </div>
+                <p class="card-text"></p>
+            </div>
+        </div>
+
+        <div class="col-md-3">
+            <div class="card">
+                <img src="" alt="" class="card-img-top">
+                <div class="card-body">
+
+                </div>
+                <p class="card-text"></p>
+            </div>
+        </div>
+
+
+        <div class="col-md-3">
+            <div class="card">
+                <img src="" alt="" class="card-img-top">
+                <div class="card-body">
+
+                </div>
+                <p class="card-text"></p>
+            </div>
+        </div>
+
+        <div class="col-md-3">
+            <div class="card">
+                <img src="" alt="" class="card-img-top">
+                <div class="card-body">
+
+                </div>
+                <p class="card-text"></p>
+            </div>
+        </div>
+
+        <div class="col-md-3">
+            <div class="card">
+                <img src="" alt="" class="card-img-top">
+                <div class="card-body">
+
+                </div>
+                <p class="card-text"></p>
+            </div>
+        </div>
+
+        <div class="col-md-3">
+            <div class="card">
+                <img src="" alt="" class="card-img-top">
+                <div class="card-body">
+
+                </div>
+                <p class="card-text"></p>
+            </div>
+        </div>
+
+    </div>
+
+</div>
+
 
 
 
@@ -17,37 +145,12 @@
         <section class="tf-section connect-wallet">
             <div class="container">
 
-                <div class="post-author style-2">
-                    <div class="avatar">
-                        <img src="{{env('ASSETS_URL')}}assets/images/avatar/profile.png" alt="">
-                    </div>
-                    <div class="content">
-                        <h4><a href="#">Cristian N. Gonzalez</a></h4>
-                        <div class="job">Web developer</div>
-                        <p>I am a technology enthusiast, since I started my working career at the age of 18. I have gone through various work areas, I must tell you that my career did not begin in the world of software development, but rather my Master of Works title gave me the opportunity to work with CAD plan drawings. Little by little, that took me to vector illustration moving on to video animations. That fueled my curiosity so that in 2019 I started self-taught at first to dedicate myself to the world of frontend web development, until a very short time later I went through full stack web development.</p>
-                        
-                        <div class="widget-social style-4">
-                            <ul>
-                                <li><a href="https://www.facebook.com/cristianngonzalezok" target="_blank"><i class="bi bi-facebook"></i></a></li>
-                                <li><a href="www.instagram.com/cristianngonzalez_" target="_blank"><i class="bi bi-instagram"></i></a></li>
-                                <li><a href="https://www.linkedin.com/in/cristianngonzalez/" target="_blank"><i class="bi bi-linkedin"></i></a></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-
 
                 <div class="row">
-                    <div class="col-md-12">
-                        <div class="sc-heading">
-                            <h3>Technologies I use</h3>
-                            <p class="desc">In this time I have been able to learn and use some popular technologies in various web or web related projects.</p>
-                        </div>
-                    </div>
                     <div class="col-lg-4 col-md-4">
                         <div class="sc-wallet">
                             <div class="icon">
-                                <img src="{{env('ASSETS_URL')}}assets/images/icon/icon-1.svg" alt="">
+                                
                             </div>
                             <div class="content">
                                 <h4><a href="#">React</a></h4>
