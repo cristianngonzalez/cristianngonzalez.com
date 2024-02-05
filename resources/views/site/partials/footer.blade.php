@@ -15,39 +15,39 @@
         </div>
         
         <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
-          <h5 class="text-uppercase">Enlaces</h5>
+          <h5 class="text-uppercase">Links</h5>
 
           <ul class="list-unstyled mb-0">
             <li>
-              <a href="#!" class="text-white">About</a>
+              <a href="#!" class="text-white text-decoration-none">About</a>
             </li>
             <li>
-              <a href="#!" class="text-white">Contact</a>
+              <a href="#!" class="text-white text-decoration-none">Contact</a>
             </li>
             <li>
-              <a href="#!" class="text-white">Projects</a>
+              <a href="#!" class="text-white text-decoration-none">Projects</a>
             </li>
             <li>
-              <a href="#!" class="text-white">Courses</a>
+              <a href="#!" class="text-white text-decoration-none">Courses</a>
             </li>
           </ul>
         </div>
         
         <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
-          <h5 class="text-uppercase">Contacto</h5>
+          <h5 class="text-uppercase">Contact</h5>
 
           <ul class="list-unstyled">
             <li>
-              <a href="https://www.linkedin.com/in/cristianngonzalez/" target="_blank" class="text-white"><i class="bi bi-linkedin"></i> Linkedin</a>
+              <a href="https://www.linkedin.com/in/cristianngonzalez/" target="_blank" class="text-white text-decoration-none"><i class="bi bi-linkedin"></i> Linkedin</a>
             </li>
             <li>
-              <a href="https://www.youtube.com/channel/UCTfVTTAkvF7KF4CF7U64ORQ" class="text-white"><i class="bi bi-youtube"></i> YouTube</a>
+              <a href="https://www.youtube.com/channel/UCTfVTTAkvF7KF4CF7U64ORQ" class="text-white text-decoration-none"><i class="bi bi-youtube"></i> YouTube</a>
             </li>
             <li>
-              <a href="https://github.com/cristianngonzalez/cristianngonzalez.com" target="_blank" class="text-white"><i class="bi bi-github"></i> Github</a>
+              <a href="https://github.com/cristianngonzalez/cristianngonzalez.com" target="_blank" class="text-white text-decoration-none"><i class="bi bi-github"></i> Github</a>
             </li>
             <li>
-              <a href="https://www.facebook.com/cristianngonzalezok" target="_blank" class="text-white"><i class="bi bi-facebook"></i> Facebook</a>
+              <a href="https://www.facebook.com/cristianngonzalezok" target="_blank" class="text-white text-decoration-none"><i class="bi bi-facebook"></i> Facebook</a>
             </li>
           </ul>
         </div>
@@ -56,7 +56,7 @@
     
     <!-- Derechos de autor -->
     <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
-      © {{date('Y')}} Derechos Reservados:
+      © {{date('Y')}} Cristian Gonzalez | All rights reserved | Developed by:
       <a class="text-white" href="{{url('/')}}">www.cristianngonzalez.com</a>
     </div>
 </footer>
