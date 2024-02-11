@@ -13,9 +13,9 @@ Route::get('/home', function () {
 Route::get('/blog', [App\Http\Controllers\BlogController::class, 'index'] );
 Route::get('blog/{blog}', [App\Http\Controllers\BlogController::class, 'detail'] )->name('blog.detail');
 
-Route::get('/aboutme', function () {
-    return view('site.aboutme.index');
-})->name('aboutme');
+Route::get('/about', function () {
+    return view('site.about.index');
+})->name('about');
 
 Route::get('/projects', function () {
     return view('site.projects.index');

@@ -18,7 +18,7 @@
                 </li>
 
                 <li class="nav-item">
-                    <a class="nav-link  @if (Request::path() == 'aboutme') active  @endif" href="{{route('aboutme')}}">Aboutme</a>
+                    <a class="nav-link  @if (Request::path() == 'about') active  @endif" href="{{route('about')}}">About me</a>
                 </li>
 
                 <li class="nav-item">

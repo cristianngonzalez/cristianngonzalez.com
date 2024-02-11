@@ -5,11 +5,11 @@
 
 
 <div class="container">
-    <div class="row">
-        <div class="col-md-6">
-            <img src="{{env('ASSETS_URL')}}assets/images/avatar/profile.png" alt="">
+    <div class="row mt-5">
+        <div class="col-md-5 col-sm-4">
+            <img class="w-100" src="{{env('ASSETS_URL')}}assets/images/avatar/profile.png" alt="">
         </div>
-        <div class="col-md-6">
+        <div class="col-md-7 col-sm-8">
             <h1><a href="#">Cristian N. Gonzalez</a></h1>
             <div class="job">Web developer</div>
             <p>I am a technology enthusiast, since I started my working career at the age of 18. I have gone through various work areas, I must tell you that my career did not begin in the world of software development, but rather my Master of Works title gave me the opportunity to work with CAD plan drawings. Little by little, that took me to vector illustration moving on to video animations. That fueled my curiosity so that in 2019 I started self-taught at first to dedicate myself to the world of frontend web development, until a very short time later I went through full stack web development.</p>
