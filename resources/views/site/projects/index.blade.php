@@ -4,6 +4,39 @@
 @section('content')
 
 
+<div class="container">
+    <div class="row">
+        <div class="col-12">
+            <h1>Projects</h1>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-12">
+
+            <!--Card Project---------------------------------->
+            <div class="card mb-3">
+                <div class="row g-0">
+                    <div class="col-md-4">
+                        <iframe class="img-fluid rounded-start" width="500" height="315" src="https://www.youtube.com/embed/nwVbTEGrM9I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                  </div>
+                    <div class="col-md-8">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                            <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--End Card Project---------------------------------->
+
+        </div>
+    </div>
+
+</div>
+
+
 
 <div class="tf-section post-details">
     <div class="container">
