@@ -25,7 +25,6 @@ class HomeController extends Controller
     public function index()
     {
         // Forzar para establecer en espanol
-
         return view('site.home.index');
     }
 }

@@ -50,8 +50,10 @@
                                 @csrf
                             </form>    
                             <li><a class="dropdown-item" href="#" onclick="event.preventDefault();
-                                document.getElementById('logout-form').submit();">
-                            {{ __('Logout') }}>@lang('logout')</a></li>
+                                    document.getElementById('logout-form').submit();">
+                                    @lang('links.logout')
+                                </a>
+                            </li>
                         </ul>
                     @endguest
 

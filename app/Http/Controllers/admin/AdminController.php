@@ -12,6 +12,11 @@ use App\Models\User;
 
 class AdminController extends Controller{
 
+    public function home(){
+        return view('admin.home.index');
+    }
+
+
 
     public function blogs(){
         $blogs = Blog::all();

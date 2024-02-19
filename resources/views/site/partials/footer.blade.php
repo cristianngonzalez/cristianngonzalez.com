@@ -19,16 +19,16 @@
 
           <ul class="list-unstyled mb-0">
             <li>
-              <a href="#!" class="text-white text-decoration-none">About</a>
+              <a href="#!" class="text-white text-decoration-none">@lang('links.aboutme')</a>
             </li>
             <li>
-              <a href="#!" class="text-white text-decoration-none">Contact</a>
+              <a href="#!" class="text-white text-decoration-none">@lang('links.contact')</a>
             </li>
             <li>
-              <a href="#!" class="text-white text-decoration-none">Projects</a>
+              <a href="#!" class="text-white text-decoration-none">@lang('links.projects')</a>
             </li>
             <li>
-              <a href="#!" class="text-white text-decoration-none">Courses</a>
+              <a href="#!" class="text-white text-decoration-none">@lang('links.courses')</a>
             </li>
           </ul>
         </div>

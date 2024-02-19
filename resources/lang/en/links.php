@@ -5,7 +5,7 @@ return [
     //Auth and user links
     'login' => 'Login',
     'register' => 'Register',
-    'logout' => 'logout',
+    'logout' => 'Logout',
     'profile' => 'Profile',
 
     //Seactions
@@ -15,6 +15,7 @@ return [
     'aboutme' => 'About me',
     'projects' => 'Projects',
     'contact' => 'Contact',
+    'courses' => 'Courses',
 ];
 
 ?>

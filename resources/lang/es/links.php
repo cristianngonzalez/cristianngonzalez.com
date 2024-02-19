@@ -15,7 +15,7 @@ return [
     'aboutme' => 'Acerca de mi',
     'projects' => 'Proyectos',
     'contact' => 'Contacto',
-    
+    'courses' => 'Cursos',
 ];
 
 ?>
