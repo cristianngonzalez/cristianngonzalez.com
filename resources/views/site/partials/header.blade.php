@@ -11,18 +11,18 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                 <li class="nav-item">
-                    <a class="nav-link @if (Request::path() == '/' || Request::path() == 'home') active  @endif" aria-current="page" href="{{url('/')}}">Home</a>
+                    <a class="nav-link @if (Request::path() == '/' || Request::path() == 'home') active  @endif" aria-current="page" href="{{url('/')}}">@lang('links.home')</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link  @if (Request::path() == 'contact') active  @endif" href="{{route('contact')}}">Contact</a>
-                </li>
-
-                <li class="nav-item">
-                    <a class="nav-link  @if (Request::path() == 'about') active  @endif" href="{{route('about')}}">About me</a>
+                    <a class="nav-link  @if (Request::path() == 'contact') active  @endif" href="{{route('contact')}}">@lang('links.contact')</a>
                 </li>
 
                 <li class="nav-item">
-                    <a class="nav-link  @if (Request::path() == 'projects') active  @endif" href="{{route('projects')}}">Projects</a>
+                    <a class="nav-link  @if (Request::path() == 'about') active  @endif" href="{{route('about')}}">@lang('links.aboutme')</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link  @if (Request::path() == 'projects') active  @endif" href="{{route('projects')}}">@lang('links.projects')</a>
                 </li>
 
 
@@ -31,17 +31,17 @@
                 
                     @guest
                         <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                            Login / Register
+                            @lang('links.login') / @lang('links.register')
                         </a>
                         <ul class="dropdown-menu">
                             <!--Divisor-->
                             <!--<li><hr class="dropdown-divider"></li>-->
                             <li><a class="dropdown-item @if (Request::path() == 'login') active  @endif" href="{{route('login')}}">@lang('links.login')</a></li>
-                            <li><a class="dropdown-item" href="#">Register</a></li>
+                            <li><a class="dropdown-item" href="#">@lang('links.register')</a></li>
                         </ul>
                     @else
                         <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                            Profile
+                            @lang('links.profile')
                         </a>
                         <ul class="dropdown-menu">
                             <!--Divisor-->
@@ -51,7 +51,7 @@
                             </form>    
                             <li><a class="dropdown-item" href="#" onclick="event.preventDefault();
                                 document.getElementById('logout-form').submit();">
-                            {{ __('Logout') }}>Log out</a></li>
+                            {{ __('Logout') }}>@lang('logout')</a></li>
                         </ul>
                     @endguest
 

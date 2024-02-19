@@ -24,8 +24,7 @@ class HomeController extends Controller
      */
     public function index()
     {
-        app()->setLocale('es'); // Establece el idioma en español
-     
+        // Forzar para establecer en espanol
 
         return view('site.home.index');
     }

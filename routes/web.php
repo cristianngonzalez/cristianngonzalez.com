@@ -3,6 +3,8 @@
 use App\Http\Controllers\HomeController;
 use Illuminate\Support\Facades\Route;
 
+//Descomentar para Forzar al espanol
+app()->setLocale('es');
 
 Route::get('/', [HomeController::class , 'index'] );
 Route::get('/home', [HomeController::class , 'index'] )->name('home');
