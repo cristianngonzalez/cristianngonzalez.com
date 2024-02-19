@@ -13,7 +13,8 @@ class HomeController extends Controller
      */
     public function __construct()
     {
-        $this->middleware('auth');
+        //Descomentamos si queremos que sean rutas autenticadas
+        //$this->middleware('auth');
     }
 
     /**
@@ -23,6 +24,9 @@ class HomeController extends Controller
      */
     public function index()
     {
-        return view('home');
+        app()->setLocale('es'); // Establece el idioma en español
+     
+
+        return view('site.home.index');
     }
 }
