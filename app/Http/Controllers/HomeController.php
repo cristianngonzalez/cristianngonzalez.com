@@ -22,9 +22,23 @@ class HomeController extends Controller
      *
      * @return \Illuminate\Contracts\Support\Renderable
      */
-    public function index()
+    public function index(Request $request)
     {
-        // Forzar para establecer en espanol
+        $idiomaCliente = $request->header('Accept-Language');
+        
+        //Tomar el primer idioma del cliente
+        $idiomaCliente = explode(',', $idiomaCliente);
+        $idiomaCliente = $idiomaCliente[0];
+
+        $idiomasDisponibles = ['es' , 'en'];
+        //Si el idioma esta entre la lista de disponibles
+        if(in_array($idiomaCliente , $idiomasDisponibles)){
+            //Usar el idioma del cliente
+            app()->setLocale($idiomaCliente);
+        }else{
+            //Usar el idioma por defecto
+            app()->setLocale('en');
+        }
         return view('site.home.index');
     }
 }
