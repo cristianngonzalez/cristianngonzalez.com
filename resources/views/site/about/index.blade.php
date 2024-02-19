@@ -34,7 +34,7 @@
             <p>In this time I have been able to learn and use some popular technologies in various web or web related projects.</p>
         </div>
 
-        <div class="col-md-3 mt-2 mb-2">
+        <div class="col-md-2 col-sm-2 mt-2 mb-2">
             <div class="card h-100">
                 <img class="card-img-top" src="{{env('ASSETS_URL')}}assets/images/icon/icon-1.svg" alt="">
                 <div class="card-body">
@@ -44,7 +44,7 @@
             </div>
         </div>
 
-        <div class="col-md-3 mt-2 mb-2">
+        <div class="col-md-2 col-sm-2 mt-2 mb-2">
             <div class="card h-100">
                 <img src="{{env('ASSETS_URL')}}assets/images/icon/icon-2.svg" alt="" class="card-img-top">
                 <div class="card-body">
@@ -56,7 +56,7 @@
         </div>
 
 
-        <div class="col-md-3 mt-2 mb-2">
+        <div class="col-md-2 col-sm-2 mt-2 mb-2">
             <div class="card h-100">
                 <img src="{{env('ASSETS_URL')}}assets/images/icon/icon-3.svg" alt="" class="card-img-top">
                 <div class="card-body">
@@ -68,7 +68,7 @@
 
       
 
-        <div class="col-md-3 mt-2 mb-1">
+        <div class="col-md-2 col-sm-2 mt-2 mb-2">
             <div class="card h-100">
                 <img src="{{env('ASSETS_URL')}}assets/images/icon/icon-4.svg" alt="" class="card-img-top">
                 <div class="card-body">
@@ -78,7 +78,7 @@
             </div>
         </div>
 
-        <div class="col-md-3 mt-2 mb-2">
+        <div class="col-md-2 col-sm-2 mt-2 mb-2">
             <div class="card h-100">
                 <img src="{{env('ASSETS_URL')}}assets/images/icon/icon-5.svg" alt="" class="card-img-top">
                 <div class="card-body">
@@ -89,7 +89,7 @@
         </div>
 
 
-        <div class="col-md-3 mt-2 mb-2">
+        <div class="col-md-2 col-sm-2 mt-2 mb-2">
             <div class="card h-100">
                 <img src="{{env('ASSETS_URL')}}assets/images/icon/icon-6.svg" alt="" class="card-img-top">
                 <div class="card-body">
@@ -99,7 +99,7 @@
             </div>
         </div>
 
-        <div class="col-md-3 mt-2 mb-2">
+        <div class="col-md-2 col-sm-2 mt-2 mb-2">
             <div class="card h-100">
                 <img src="{{env('ASSETS_URL')}}assets/images/icon/icon-7.svg" alt="" class="card-img-top">
                 <div class="card-body">
@@ -109,7 +109,7 @@
             </div>
         </div>
                     
-        <div class="col-md-3 mt-2 mb-2">
+        <div class="col-md-2 col-sm-2 mt-2 mb-2">
             <div class="card h-100">
                 <img src="{{env('ASSETS_URL')}}assets/images/icon/icon-8.svg" alt="" class="card-img-top">
                 <div class="card-body">
@@ -122,7 +122,7 @@
     
      
 
-        <div class="col-md-3 mt-2 mb-2">
+        <div class="col-md-2 col-sm-2 mt-2 mb-2">
             <div class="card h-100">
                 <img src="{{env('ASSETS_URL')}}assets/images/icon/icon-9.svg" alt="" class="card-img-top">
                 <div class="card-body">
