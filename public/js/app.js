@@ -5476,6 +5476,7 @@ render._withStripped = true;
 
 __webpack_require__(/*! ./bootstrap */ "./resources/js/bootstrap.js");
 window.Vue = (__webpack_require__(/*! vue */ "./node_modules/vue/dist/vue.esm.js")["default"]);
+console.log("Muy lindo pero me lo comi todo");
 
 /**
  * The following block of code may be used to automatically register your
