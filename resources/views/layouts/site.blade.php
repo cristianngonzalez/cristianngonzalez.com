@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <!--[if IE 8 ]><html class="ie" xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-US" lang="en-US"> <![endif]-->
 <!--[if (gte IE 9)|!(IE)]><!-->
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="es" lang="es">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="{{ app()->getLocale() }}" lang="{{ app()->getLocale() }}">
 <!--<![endif]-->
 
 <head>
@@ -73,22 +73,7 @@
     @include('site.partials.footer')
 
 
-    <a id="scroll-top"></a>
-
     <!-- Javascript -->
-    <script src="{{env('ASSETS_URL')}}assets/js/jquery.easing.js"></script>
-    <script src="{{env('ASSETS_URL')}}assets/js/bootstrap.min.js"></script>
-    <script src="{{env('ASSETS_URL')}}assets/js/swiper-bundle.min.js"></script>
-    <script src="{{env('ASSETS_URL')}}assets/js/swiper.js"></script>
-            
-    <script src="{{env('ASSETS_URL')}}assets/js/plugin.js"></script>
-    <script src="{{env('ASSETS_URL')}}assets/js/count-down.js"></script>
-    <script src="{{env('ASSETS_URL')}}assets/js/shortcodes.js"></script>
-    <script src="{{env('ASSETS_URL')}}assets/js/main.js"></script>
-    <script src="{{env('ASSETS_URL')}}assets/js/prism.js"></script>
-            
-    <script src="{{env('ASSETS_URL')}}assets/js/password-eye.js"></script>    
-    
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
             
 </body>
