@@ -69,7 +69,7 @@
 
 
     <!--/*Javascript generado desde laravel mix*/-->
-    <script src="{{ mix('js/app.js') }}"></script>
+    <script src="{{env('ASSETS_URL')}}js/app.js"></script>
 
 </body>
 </html>
