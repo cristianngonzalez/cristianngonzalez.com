@@ -38,12 +38,15 @@
                     @enderror
                 </div>
 
-                <div class="mb-3">
-                    <label class="form-label" for="password">{{ __('Password') }}</label>
-                    <input id="input-password-1" type="password" class="form-control @error('password') is-invalid @enderror" value="{{ old('email') }}" name="password" required autocomplete="new-password">
-                    <button class="btn btn-password-eye" type="button" id="btn-password-eye-1">
-                        <i id="bi-password-eye-1" class="bi bi-eye"></i>
-                    </button>
+                
+
+
+                <label class="form-label" for="password">@lang('forms.password')</label>
+                <div class="input-group mb-3">
+                    <input type="password" id="input-password-1" class="form-control @error('password') is-invalid @enderror "  name="password" required  autocomplete="new-password">
+                    <!--Boton para mostrar contraseña-->
+                    <button class="btn btn-primary btn-password-eye" type="button" id="btn-password-eye-1"><i id="bi-password-eye-1" class="bi bi-eye"></i></button>
+                    
                     @error('password')
                         <span class="invalid-feedback" role="alert">
                             <strong>{{ $message }}</strong>
@@ -52,13 +55,16 @@
                 </div>
 
 
-                <div class="mb-3">
-                        <label class="form-label" for="password-confirm">{{ __('Confirm Password') }}</label>
-                        <input id="input-password-2" type="password" class="form-control @error('password') is-invalid @enderror" value="{{ old('email') }}" name="password_confirmation" required autocomplete="new-password">
-                        <button class="btn btn-password-eye" type="button" id="btn-password-eye-2">
-                            <i id="bi-password-eye-2" class="bi bi-eye"></i>
-                        </button>
-                 
+
+                <label class="form-label" for="password-confirm">@lang('forms.confirm_password')</label>
+                <div class="input-group mb-3">
+                    <input type="password" id="input-password-2" class="form-control @error('password') is-invalid @enderror " name="password_confirmation" required required autocomplete="new-password">
+                    <!--Boton para mostrar contraseña-->
+                    <button class="btn btn-primary btn-password-eye" type="button" id="btn-password-eye-2"><i id="bi-password-eye-2" class="bi bi-eye"></i></button>
+                    
+                    @error('password')
+                        <span class="invalid-feedback" role="alert"><strong>{{ $message }}</strong></span>
+                    @enderror
                 </div>
 
 

@@ -11,10 +11,6 @@ require('./events/events');
 window.Vue = require('vue').default;
 
 
-function toggleShowPassword(input){
-    input.type = input.type === 'password' ? 'text' : 'password';
-
-}
 
 
 /**
