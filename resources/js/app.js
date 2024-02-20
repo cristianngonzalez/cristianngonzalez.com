@@ -5,10 +5,17 @@
  */
 
 require('./bootstrap');
+require('./events/events');
+
 
 window.Vue = require('vue').default;
 
-console.log("Muy lindo pero me lo comi todo");
+
+function toggleShowPassword(input){
+    input.type = input.type === 'password' ? 'text' : 'password';
+
+}
+
 
 /**
  * The following block of code may be used to automatically register your
