@@ -14,8 +14,9 @@
 
 
 
-    <form action="" class="row" method="POST" action="{{route('emails.send')}}">
-        @csrf @method('POST')
+    <form class="row" method="POST" action="{{route('emails.send')}}">
+        @csrf 
+        @method('POST')
         <div class="col-12">
             <div class="form-floating mb-3">
                 <input type="text" name="name" class="form-control" id="name">

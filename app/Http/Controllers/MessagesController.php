@@ -19,15 +19,15 @@ class MessagesController extends Controller{
       $message = $req->input('message');
 
       /* El metodo send lleva como parametro la clase mail que creamos que a su vez
-      llevara los datos del formulario como variables*/
+         llevara los datos del formulario como variables*/
 
       /*Esto es para enviar el mensaje (descomentar en produccion)*/
       Mail::to('contact@cristianngonzalez.com')->send(new MessageReceived($name , $email , $message));
 
-     /*Esto es para mostrar como seria al mensaje (comentar en produccion) */
-     //return new MessageReceived($name , $email , $message);
+      /*Esto es para mostrar como seria al mensaje (comentar en produccion) */
+      //return new MessageReceived($name , $email , $message);
 
-     return 'Mensaje enviado';
+      return 'Mensaje enviado';
    }
 
    //Messages from contact section in the page
