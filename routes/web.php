@@ -10,25 +10,31 @@ use Illuminate\Support\Facades\Route;
 Route::group(['middleware' => ['setLanguage'] ] , function(){
     Route::get('/', [HomeController::class , 'index'] );
     Route::get('/home', [HomeController::class , 'index'] )->name('home');
+
+    Route::get('/blog', [App\Http\Controllers\BlogController::class, 'index'] );
+    Route::get('blog/{blog}', [App\Http\Controllers\BlogController::class, 'detail'] )->name('blog.detail');
+
+    Route::get('/about', function () {
+        return view('site.about.index');
+    })->name('about');
+
+    Route::get('/projects', function () {
+        return view('site.projects.index');
+    })->name('projects');
+
+    Route::get('/contact', function () { return view('site.contact.index');})->name('contact');
+    Route::post('/contact/message', [App\Http\Controllers\MessagesController::class, 'contactMessage'] )->name('contact.message');
+
+    Auth::routes();//Default routes of laravel auth
+
 });
 
 
 
-Route::get('/blog', [App\Http\Controllers\BlogController::class, 'index'] );
-Route::get('blog/{blog}', [App\Http\Controllers\BlogController::class, 'detail'] )->name('blog.detail');
 
-Route::get('/about', function () {
-    return view('site.about.index');
-})->name('about');
 
-Route::get('/projects', function () {
-    return view('site.projects.index');
-})->name('projects');
 
-Route::get('/contact', function () { return view('site.contact.index');})->name('contact');
-Route::post('/contact/message', [App\Http\Controllers\MessagesController::class, 'contactMessage'] )->name('contact.message');
 
-Auth::routes();//Default routes of laravel auth
 Route::get('/inicio', function () {
     return view('site.user.login');
 })->name('inicio');

@@ -5475,7 +5475,11 @@ render._withStripped = true;
  */
 
 __webpack_require__(/*! ./bootstrap */ "./resources/js/bootstrap.js");
+__webpack_require__(/*! ./events/events */ "./resources/js/events/events.js");
 window.Vue = (__webpack_require__(/*! vue */ "./node_modules/vue/dist/vue.esm.js")["default"]);
+function toggleShowPassword(input) {
+  input.type = input.type === 'password' ? 'text' : 'password';
+}
 
 /**
  * The following block of code may be used to automatically register your
@@ -5538,6 +5542,23 @@ window.axios.defaults.headers.common['X-Requested-With'] = 'XMLHttpRequest';
 //     cluster: process.env.MIX_PUSHER_APP_CLUSTER,
 //     forceTLS: true
 // });
+
+/***/ }),
+
+/***/ "./resources/js/events/events.js":
+/*!***************************************!*\
+  !*** ./resources/js/events/events.js ***!
+  \***************************************/
+/***/ (() => {
+
+console.log("Cargando los eventos sisisisisi");
+var btn_password_eye = document.getElementsByClassName('btn-password-eye');
+for (var i = 0; i < btn_password_eye.length; i++) {
+  btn_password_eye[i].addEventListener('click', function () {
+    var input = this.previousElementSibling;
+    input.type = input.type === 'password' ? 'text' : 'password';
+  });
+}
 
 /***/ }),
 
