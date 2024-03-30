@@ -10,7 +10,7 @@
                     @csrf
                     @method('POST')
                     <div class="input-group mb-3">
-                        <input type="email" class="form-control" id="email" name="email" placeholder="Enter your email" aria-label="Enter your email" aria-describedby="emailHelp">
+                        <input type="email" class="form-control" id="email" name="email" placeholder="@lang('forms.enter_your_email')" aria-label="Enter your email" aria-describedby="emailHelp">
                         <button type="submit" name="submit" id="submit" class="btn btn-primary" id="button-addon2">@lang('forms.subscribe')</button> 
                     </div>
                 </form>
