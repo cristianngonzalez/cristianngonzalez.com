@@ -15,6 +15,7 @@ return [
     'enter_your_email' => 'Enter your email',
     'we_will_send_you_a_confirmation_email' => 'We will send you a confirmation email',
     'we_will_not_share_your_email_with_anyone' => 'We will not share your email with anyone',
+    'subscribe' => 'Subscribe',
 ];
 
 ?>

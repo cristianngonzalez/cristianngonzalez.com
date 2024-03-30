@@ -17,6 +17,7 @@ return [
     'enter_your_email' => 'Ingresa tu correo electrónico',
     'we_will_send_you_a_confirmation_email' => 'Te enviaremos un correo de confirmación',
     'we_will_not_share_your_email_with_anyone' => 'No compartiremos tu correo con nadie',
+    'subscribe' => 'Suscribirse',
 ];
 
 ?>

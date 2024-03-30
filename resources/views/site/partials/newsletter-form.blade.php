@@ -2,7 +2,7 @@
 <div class="container-fluid bg-warning">
     <div class="row justify-content-center">
         <div class="col-md-9 mt-4 mb-4 p-4 rounded-5">
-            <h2>SUBSCRIBE TO OUR NEWSLETTER</h2>
+            <h2>@lang('forms.subscribe_to_our_newsletter')</h2>
             
             <div class="mb-3">
                     
@@ -11,12 +11,12 @@
                     @method('POST')
                     <div class="input-group mb-3">
                         <input type="email" class="form-control" id="email" name="email" placeholder="Enter your email" aria-label="Enter your email" aria-describedby="emailHelp">
-                        <button type="submit" name="submit" id="submit" class="btn btn-primary" id="button-addon2">Subscribe</button> 
+                        <button type="submit" name="submit" id="submit" class="btn btn-primary" id="button-addon2">@lang('forms.subscribe')</button> 
                     </div>
                 </form>
                     
 
-                <div id="emailHelp" class="form-text">We will never share your email with anyone else.</div>
+                <div id="emailHelp" class="form-text">@lang('forms.we_will_not_share_your_email_with_anyone')</div>
 
                     
             </div>
