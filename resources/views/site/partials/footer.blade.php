@@ -9,9 +9,7 @@
       <div class="row">
         <div class="col-lg-6 col-md-12 mb-4 mb-md-0">
           <span><img id="logo_footer" src="{{env('ASSETS_URL')}}assets/images/logo/logo_dark.png" alt="cristianngonzalez" width="151" height="45" data-retina="assets/images/logo/logo_dark@2x.png" data-width="151" data-height="45"></span>
-          <p>
-            Web and aplications development and dataminer.
-          </p>
+          <p>@lang('footer.web_and_aplications_development_and_dataminer')</p>
         </div>
         
         <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
@@ -34,7 +32,7 @@
         </div>
         
         <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
-          <h5 class="text-uppercase">Contact</h5>
+          <h5 class="text-uppercase">@lang('site.contact')</h5>
 
           <ul class="list-unstyled">
             <li>
@@ -56,7 +54,7 @@
     
     <!-- Derechos de autor -->
     <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
-      © {{date('Y')}} Cristian Gonzalez | All rights reserved | Developed by:
+      © {{date('Y')}} Cristian Gonzalez | @lang('site.all_rights_reserved') | @lang('site.developed_by'):
       <a class="text-white" href="{{url('/')}}">www.cristianngonzalez.com</a>
     </div>
 </footer>
