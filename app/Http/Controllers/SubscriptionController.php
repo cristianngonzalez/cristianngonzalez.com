@@ -17,18 +17,31 @@ class SubscriptionController extends Controller{
     }
     //
     public function create(Request $req){
-
-        $subscription = new Subscription;
-
-        $subscription->email = $req->input('email');
-        $subscription->save();
-
-        //Enviamos el email
-        return $this->emailService->sendEmail($subscription->email, 'Gracias por suscribirte', 'Gracias por suscribirte a nuestro boletin', 'emails.subscription');
-
-
-
-        //Enviamos con variable de session
-        return redirect()->back()->with('subscription', 'success');
+        
+        try{
+            $req->validate([
+                'email' => 'required|email',
+                'j' => 'required'
+            ]);
+    
+            //Si la validacion sale mal
+            if($req->fails()){
+                return redirect()->back()->with('subscription', 'error');
+            }
+    
+            $subscription = new Subscription;
+    
+            $subscription->email = $req->input('email');
+            $subscription->save();
+    
+            //Enviamos el email
+            return $this->emailService->sendEmail($subscription->email, 'Gracias por suscribirte', 'Gracias por suscribirte a nuestro boletin', 'emails.subscription');
+    
+            //Enviamos con variable de session
+            return redirect()->back()->with('subscription', 'success');
+        }catch(\Exception $e){
+            return redirect()->back()->with('subscription', 'error');
+        }
+        
     }
 }
