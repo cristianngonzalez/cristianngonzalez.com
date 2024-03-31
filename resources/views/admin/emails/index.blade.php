@@ -11,9 +11,6 @@
     </div>
 
 
-
-
-
     <form class="row" method="POST" action="{{route('emails.send')}}">
         @csrf 
         @method('POST')
@@ -25,7 +22,7 @@
         </div>
         <div class="col-12 mt-2">
             <div class="form-floating mb-3">
-                <input type="email" class="form-control" id="email">
+                <input type="email" class="form-control" id="email" name="email">
                 <label for="email">Receiver</label>
             </div>
         </div>

@@ -13,6 +13,8 @@ use App\Models\Message;
 class MessagesController extends Controller{
    //Este metodo es el action del formulario en la vista
    public function sendMessage( Request $req ){
+
+
       //Variables de inputs
       $name = $req->input('name');
       $email = $req->input('email');
@@ -22,7 +24,7 @@ class MessagesController extends Controller{
          llevara los datos del formulario como variables*/
 
       /*Esto es para enviar el mensaje (descomentar en produccion)*/
-      Mail::to('contact@cristianngonzalez.com')->send(new MessageReceived($name , $email , $message));
+      Mail::to($email)->send(new MessageReceived($name , $email , $message));
 
       /*Esto es para mostrar como seria al mensaje (comentar en produccion) */
       //return new MessageReceived($name , $email , $message);
