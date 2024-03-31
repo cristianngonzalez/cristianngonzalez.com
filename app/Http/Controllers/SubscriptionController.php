@@ -24,11 +24,6 @@ class SubscriptionController extends Controller{
                 'j' => 'required'
             ]);
     
-            //Si la validacion sale mal
-            if($req->fails()){
-                return redirect()->back()->with('subscription', 'error');
-            }
-    
             $subscription = new Subscription;
     
             $subscription->email = $req->input('email');
