@@ -32,10 +32,11 @@ class SubscriptionController extends Controller{
             //Enviamos el email
             return $this->emailService->sendEmail($subscription->email, 'Gracias por suscribirte', 'Gracias por suscribirte a nuestro boletin', 'emails.subscription');
     
-            //Enviamos con variable de session
-            return redirect()->back()->with('subscription', 'success');
+            //Enviamos con variable de session (generalmente utilizadas por el sweet alert)
+            return redirect()->back()->with('status', 'success')->with('message', 'Gracias por suscribirte')->with('title', 'Gracias!');
         }catch(\Exception $e){
-            return redirect()->back()->with('subscription', 'error');
+            //Enviamos con variable de session (generalmente utilizadas por el sweet alert)
+            return redirect()->back()->with('status', 'error')->with('message' , 'Error al suscribirte')->with('title', 'Opps!');
         }
         
     }

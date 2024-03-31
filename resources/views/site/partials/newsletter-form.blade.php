@@ -30,18 +30,3 @@
     </div>
 </div>
 <!--End Newsletter form-->
-
-
-@if(session('subscription') == 'success')
-<script>
-    setTimeout(() => {
-        swal(`Thank you!`, "You are subscribe now!", "success");
-    }, 2000);
-</script>
-@elseif(session('subscription') == 'error')
-<script>
-    setTimeout(() => {
-        swal(`Oops!`, "Something went wrong!", "error");
-    }, 2000);
-</script>
-@endif

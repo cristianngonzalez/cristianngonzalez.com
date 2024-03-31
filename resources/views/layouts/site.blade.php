@@ -65,6 +65,8 @@
 
     @include('site.partials.newsletter-form')
 
+    @include('site.partials.sweet_alert')
+
     @include('site.partials.footer')
 
 
