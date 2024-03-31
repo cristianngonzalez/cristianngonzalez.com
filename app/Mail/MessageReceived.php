@@ -14,7 +14,7 @@ class MessageReceived extends Mailable{
    public $email;
    public $msg;
 
-   /*El constructor recibe los parametros enviados por el controlador*/
+   /*El constructor recibe los parametros enviados por el servicio*/
    public function __construct($name , $email, $msg){
       $this->name = $name;
       $this->email = $email;

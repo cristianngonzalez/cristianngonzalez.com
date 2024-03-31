@@ -18,7 +18,10 @@
 
                 <div id="emailHelp" class="form-text">@lang('forms.we_will_not_share_your_email_with_anyone')</div>
 
-                    
+               
+   
+
+
             </div>
           
         </div>
@@ -27,7 +30,7 @@
 <!--End Newsletter form-->
 
 
-@if(isset($subscription))
+@if(session('subscription') == 'success')
 <script>
     setTimeout(() => {
         swal(`Thank you!`, "You are subscribe now!", "success");
