@@ -21,7 +21,6 @@ class SubscriptionController extends Controller{
         try{
             $req->validate([
                 'email' => 'required|email',
-                'j' => 'required'
             ]);
     
             $subscription = new Subscription;
