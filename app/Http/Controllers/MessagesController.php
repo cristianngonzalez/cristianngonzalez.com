@@ -9,6 +9,7 @@ use RealRashid\SweetAlert\Facades\Alert;
 use App\Mail\MessageReceived;
 
 use App\Models\Message;
+use Throwable;
 
 class MessagesController extends Controller{
    //Este metodo es el action del formulario en la vista
@@ -34,26 +35,31 @@ class MessagesController extends Controller{
 
    //Messages from contact section in the page
    public function contactMessage(Request $req){
+      try{
+         $name = $req->input('name');
+         $email = $req->input('email');
+         $message = $req->input('message');
+   
+         $message = new Message;
+    
+         $message->name = $req->input('name');
+         $message->email = $req->input('email');
+         $message->phone = $req->input('phone');
+         $message->message = $req->input('message');
+   
+         $message->readed = false;
+         $message->favorite = false;
+   
+         $message->save();
+   
+         Mail::to('contact@cristianngonzalez.com')->send(new MessageReceived($name , $email , $message));
+   
+         return redirect('/contact');
+      }catch(Throwable $e){
+         return redirect()->back()->with('status', 'error')->with('message' , 'Error al enviar el mensaje')->with('title', 'Opps!');
+      }
 
-      $name = $req->input('name');
-      $email = $req->input('email');
-      $message = $req->input('message');
-
-      $message = new Message;
- 
-      $message->name = $req->input('name');
-      $message->email = $req->input('email');
-      $message->phone = $req->input('phone');
-      $message->message = $req->input('message');
-
-      $message->readed = false;
-      $message->favorite = false;
-
-      $message->save();
-
-      Mail::to('contact@cristianngonzalez.com')->send(new MessageReceived($name , $email , $message));
-
-      return redirect('/contact');
+     
    }
 
    public function openMessage(Message $message){
