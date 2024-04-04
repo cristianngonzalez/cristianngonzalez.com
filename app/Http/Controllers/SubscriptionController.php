@@ -29,7 +29,7 @@ class SubscriptionController extends Controller{
             $subscription->save();
     
             //Enviamos el email
-            return $this->emailService->sendEmail($subscription->email, 'Gracias por suscribirte', 'Gracias por suscribirte a nuestro boletin', 'emails.subscription');
+            $email = $this->emailService->sendEmail($subscription->email, 'Gracias por suscribirte', 'Gracias por suscribirte a nuestro boletin', 'emails.subscription');
     
             //Enviamos con variable de session (generalmente utilizadas por el sweet alert)
             return redirect()->back()->with('status', 'success')->with('message', 'Gracias por suscribirte')->with('title', 'Gracias!');
