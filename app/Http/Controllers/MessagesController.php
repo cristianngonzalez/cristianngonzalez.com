@@ -15,7 +15,7 @@ use Throwable;
 
 class MessagesController extends Controller{
 
-   protected = $emailService;
+   protected $emailService;
 
    public function __construct(EmailService $emailService){
       $this->emailService = $emailService;
@@ -44,7 +44,7 @@ class MessagesController extends Controller{
    //Messages from contact section in the page
    public function contactMessage(Request $req){
       try{
-         
+     
          $req->validate([
             'name' => 'nullable|string|max:255',
             'email' => 'required|email|max:255',
